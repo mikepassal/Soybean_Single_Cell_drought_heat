@@ -6,7 +6,7 @@ __pycache__/
 
 # Big Stuff 
 Data/
-
+Reprocess_and_recluster\Recluster_from_Cellranger_output\cache
 # C extensions
 *.so
 
