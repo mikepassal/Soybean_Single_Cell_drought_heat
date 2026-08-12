@@ -53,4 +53,5 @@ singularity exec --nv \
     --sample="$SAMPLE_PREFIX" \
     --chemistry=ARC-v1 \
     --localcores=24 \
+    --create-bam=true \
     --localmem=75"
