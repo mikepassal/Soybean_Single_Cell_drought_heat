@@ -1,9 +1,10 @@
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=16
-#SBATCH --time=47:00:00
-#SBATCH --mem=40GB
+#SBATCH --cpus-per-task=24
+#SBATCH --array=1-4
+#SBATCH --time=10:00:00
+#SBATCH --mem=80GB
 #SBATCH --job-name=soybean_realign
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=michael.p@nyu.edu
@@ -11,8 +12,45 @@
 #SBATCH --output=/home/mp7563/Jobs_logs/Soybean_jobs/%A_%a_soybean_realign.out
 #SBATCH --error=/home/mp7563/Jobs_logs/Soybean_jobs/%A_%a_soybean_realign.err
 
+stdbuf -o0 echo "Script Started"
 
-cellranger count \
-    --id = run_control_samples \
-    --transcriptome = /projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Genomes/soy_Williams82_v3_with_organelles \ 
-    --fastqs = /projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Soybean_Single_Cell_drought_heat/Cellranger_output/control \
+SAMPLE_LABELS=(
+  "RNA_leaf_C1"
+  "RNA_leaf_C1A"
+  "RNA-Leaf-C2"
+  "RNA-leaf-control_3"
+)
+
+RUN_IDS=(
+  "Control_1"
+  "Control_1A"
+  "Control_2"
+  "Control_3"
+)
+
+FASTQ_LIST=(
+  "/projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Raw_fastq_files/GR00_Rep1/Leaf_Control1/RNA_leaf_C1"
+  "/projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Raw_fastq_files/GR00_Rep1/Leaf_control1A/RNA_leaf_C1A"
+  "/projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Raw_fastq_files/Rep_2/GR0073_RNA_resequenced_20251201_/GR0073/non_trimmed"
+  "/projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Raw_fastq_files/Rep_3/GR0192_RNA/RNA_fastq_raw"
+)
+
+IDX=$((SLURM_ARRAY_TASK_ID-1))
+RUN_ID="${RUN_IDS[$IDX]}"
+SAMPLE_PREFIX="${SAMPLE_LABELS[$IDX]}"
+FASTQS="${FASTQ_LIST[$IDX]}"
+
+mkdir -p /projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Soybean_results/realigned_sc/control
+cd /projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Soybean_results/realigned_sc/control || exit 1
+
+singularity exec --nv \
+    --overlay /home/mp7563/Python_envs/Torch_miniforge_env.ext3:ro /home/mp7563/Python_envs/ubuntu_cuda_image.sif \
+    /bin/bash -c "source /ext3/env.sh; conda activate Luke_terrace; \
+    cellranger count \
+    --id="$RUN_ID" \
+    --transcriptome=/projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Genomes/soy_Williams82_v3_with_organelles \
+    --fastqs="$FASTQS" \
+    --sample="$SAMPLE_PREFIX" \
+    --chemistry=ARC-v1 \
+    --localcores=24 \
+    --localmem=75"
