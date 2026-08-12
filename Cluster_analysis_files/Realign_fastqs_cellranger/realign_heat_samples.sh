@@ -3,7 +3,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=24
 #SBATCH --array=1-3
-#SBATCH --time=10:00:00
+#SBATCH --time=7:00:00
 #SBATCH --mem=80GB
 #SBATCH --job-name=soybean_realign_heat
 #SBATCH --mail-type=FAIL
