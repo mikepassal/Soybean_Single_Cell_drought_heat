@@ -1,0 +1,5 @@
+run_id,library,cells_realigned_filtered,cells_in_adata_rna,shared_barcodes,frac_of_adata_rna_recovered,frac_of_ours_retained
+Control_1,leaf_control_rep1,6248,3740,3740,1.0,0.5985915492957746
+Control_1A,leaf_control_rep1A,27367,3452,3452,1.0,0.12613731866846933
+Control_2,leaf_control_rep2,1615,823,761,0.9246658566221142,0.4712074303405573
+Control_3,leaf_control_rep3,2674,1683,1683,1.0,0.6293941660433807

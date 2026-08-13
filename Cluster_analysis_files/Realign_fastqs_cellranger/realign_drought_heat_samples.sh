@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=24
-#SBATCH --array=1-3
-#SBATCH --time=7:00:00
-#SBATCH --mem=80GB
+#SBATCH --cpus-per-task=32
+#SBATCH --array=1
+#SBATCH --time=2:00:00
+#SBATCH --mem=90GB
 #SBATCH --job-name=soybean_realign_HD   
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=michael.p@nyu.edu
@@ -49,6 +49,6 @@ singularity exec --nv \
     --fastqs="$FASTQS" \
     --sample="$SAMPLE_PREFIX" \
     --chemistry=ARC-v1 \
-    --localcores=24 \
+    --localcores=32 \
     --create-bam=true \
-    --localmem=75"
+    --localmem=85"

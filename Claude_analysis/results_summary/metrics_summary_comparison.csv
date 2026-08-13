@@ -1,0 +1,81 @@
+run_id,metric,collaborator,realigned,abs_diff,pct_diff
+Control_1,estimated number of cells,6248.0,6248.0,0.0,0.0
+Control_1,mean reads per cell,39876.0,39876.0,0.0,0.0
+Control_1,median genes per cell,535.0,535.0,0.0,0.0
+Control_1,number of reads,249144126.0,249144126.0,0.0,0.0
+Control_1,valid barcodes,0.85,0.85,0.0,0.0
+Control_1,valid umi sequences,0.997,0.997,0.0,0.0
+Control_1,sequencing saturation,0.74,0.74,0.0,0.0
+Control_1,q30 bases in barcode,0.9620000000000001,0.9620000000000001,0.0,0.0
+Control_1,q30 bases in rna read,0.963,0.963,0.0,0.0
+Control_1,q30 bases in umi,0.9740000000000001,0.9740000000000001,0.0,0.0
+Control_1,reads mapped to genome,0.8420000000000001,0.8420000000000001,0.0,0.0
+Control_1,reads mapped confidently to genome,0.396,0.396,0.0,0.0
+Control_1,reads mapped confidently to intergenic regions,0.059000000000000004,0.059000000000000004,0.0,0.0
+Control_1,reads mapped confidently to intronic regions,0.043,0.043,0.0,0.0
+Control_1,reads mapped confidently to exonic regions,0.294,0.294,0.0,0.0
+Control_1,reads mapped confidently to transcriptome,0.32,0.32,0.0,0.0
+Control_1,reads mapped antisense to gene,0.017,0.017,0.0,0.0
+Control_1,fraction reads in cells,0.54,0.54,0.0,0.0
+Control_1,total genes detected,39806.0,39806.0,0.0,0.0
+Control_1,median umi counts per cell,848.0,848.0,0.0,0.0
+Control_1A,estimated number of cells,27367.0,27367.0,0.0,0.0
+Control_1A,mean reads per cell,11053.0,11053.0,0.0,0.0
+Control_1A,median genes per cell,133.0,133.0,0.0,0.0
+Control_1A,number of reads,302499115.0,302499115.0,0.0,0.0
+Control_1A,valid barcodes,0.758,0.758,0.0,0.0
+Control_1A,valid umi sequences,0.997,0.997,0.0,0.0
+Control_1A,sequencing saturation,0.825,0.825,0.0,0.0
+Control_1A,q30 bases in barcode,0.9640000000000001,0.9640000000000001,0.0,0.0
+Control_1A,q30 bases in rna read,0.9620000000000001,0.9620000000000001,0.0,0.0
+Control_1A,q30 bases in umi,0.975,0.975,0.0,0.0
+Control_1A,reads mapped to genome,0.91,0.91,0.0,0.0
+Control_1A,reads mapped confidently to genome,0.478,0.478,0.0,0.0
+Control_1A,reads mapped confidently to intergenic regions,0.077,0.077,0.0,0.0
+Control_1A,reads mapped confidently to intronic regions,0.047,0.047,0.0,0.0
+Control_1A,reads mapped confidently to exonic regions,0.354,0.354,0.0,0.0
+Control_1A,reads mapped confidently to transcriptome,0.37799999999999995,0.37799999999999995,0.0,0.0
+Control_1A,reads mapped antisense to gene,0.023,0.023,0.0,0.0
+Control_1A,fraction reads in cells,0.7809999999999999,0.7809999999999999,0.0,0.0
+Control_1A,total genes detected,43191.0,43191.0,0.0,0.0
+Control_1A,median umi counts per cell,367.0,367.0,0.0,0.0
+Control_2,estimated number of cells,3310.0,1615.0,1695.0,51.20845921450151
+Control_2,mean reads per cell,98515.0,99863.0,1348.0,1.3683195452469168
+Control_2,median genes per cell,311.0,357.0,46.0,14.790996784565916
+Control_2,number of reads,326083391.0,161279256.0,164804135.0,50.540487356499554
+Control_2,valid barcodes,0.828,0.815,0.013000000000000012,1.5700483091787454
+Control_2,valid umi sequences,0.9990000000000001,0.956,0.04300000000000015,4.304304304304319
+Control_2,sequencing saturation,0.5670000000000001,0.451,0.11600000000000005,20.45855379188713
+Control_2,q30 bases in barcode,0.9520000000000001,0.9520000000000001,0.0,0.0
+Control_2,q30 bases in rna read,0.966,0.96,0.006000000000000005,0.6211180124223609
+Control_2,q30 bases in umi,0.968,0.966,0.0020000000000000018,0.20661157024793408
+Control_2,reads mapped to genome,0.618,0.63,0.01200000000000001,1.9417475728155358
+Control_2,reads mapped confidently to genome,0.22,0.222,0.0020000000000000018,0.90909090909091
+Control_2,reads mapped confidently to intergenic regions,0.027000000000000003,0.027999999999999997,0.000999999999999994,3.703703703703681
+Control_2,reads mapped confidently to intronic regions,0.01,0.01,0.0,0.0
+Control_2,reads mapped confidently to exonic regions,0.183,0.183,0.0,0.0
+Control_2,reads mapped confidently to transcriptome,0.18600000000000003,0.18600000000000003,0.0,0.0
+Control_2,reads mapped antisense to gene,0.006999999999999999,0.006999999999999999,0.0,0.0
+Control_2,fraction reads in cells,0.191,0.135,0.055999999999999994,29.31937172774869
+Control_2,total genes detected,36714.0,33261.0,3453.0,9.405131557444026
+Control_2,median umi counts per cell,820.0,730.0,90.0,10.975609756097562
+Control_3,estimated number of cells,2674.0,2674.0,0.0,0.0
+Control_3,mean reads per cell,124512.0,124512.0,0.0,0.0
+Control_3,median genes per cell,566.0,566.0,0.0,0.0
+Control_3,number of reads,332944879.0,332944879.0,0.0,0.0
+Control_3,valid barcodes,0.9109999999999999,0.9109999999999999,0.0,0.0
+Control_3,valid umi sequences,0.9990000000000001,0.966,0.03300000000000014,3.303303303303317
+Control_3,sequencing saturation,0.963,0.963,0.0,0.0
+Control_3,q30 bases in barcode,0.972,0.972,0.0,0.0
+Control_3,q30 bases in rna read,0.961,0.961,0.0,0.0
+Control_3,q30 bases in umi,0.977,0.977,0.0,0.0
+Control_3,reads mapped to genome,0.728,0.728,0.0,0.0
+Control_3,reads mapped confidently to genome,0.642,0.642,0.0,0.0
+Control_3,reads mapped confidently to intergenic regions,0.126,0.126,0.0,0.0
+Control_3,reads mapped confidently to intronic regions,0.069,0.069,0.0,0.0
+Control_3,reads mapped confidently to exonic regions,0.447,0.447,0.0,0.0
+Control_3,reads mapped confidently to transcriptome,0.479,0.479,0.0,0.0
+Control_3,reads mapped antisense to gene,0.036000000000000004,0.036000000000000004,0.0,0.0
+Control_3,fraction reads in cells,0.648,0.648,0.0,0.0
+Control_3,total genes detected,35832.0,35832.0,0.0,0.0
+Control_3,median umi counts per cell,657.0,657.0,0.0,0.0

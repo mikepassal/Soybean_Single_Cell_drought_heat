@@ -1,0 +1,61 @@
+perm,design,comparison,n_sig
+0,~treatment,Heat vs Control,0
+0,~treatment,Drought vs Control,0
+0,~treatment,HD vs Control,0
+0,~rep_block + treatment,Heat vs Control,0
+0,~rep_block + treatment,Drought vs Control,0
+0,~rep_block + treatment,HD vs Control,0
+1,~treatment,Heat vs Control,0
+1,~treatment,Drought vs Control,1
+1,~treatment,HD vs Control,0
+1,~rep_block + treatment,Heat vs Control,0
+1,~rep_block + treatment,Drought vs Control,2
+1,~rep_block + treatment,HD vs Control,0
+2,~treatment,Heat vs Control,0
+2,~treatment,Drought vs Control,0
+2,~treatment,HD vs Control,0
+2,~rep_block + treatment,Heat vs Control,1
+2,~rep_block + treatment,Drought vs Control,0
+2,~rep_block + treatment,HD vs Control,13
+3,~treatment,Heat vs Control,0
+3,~treatment,Drought vs Control,0
+3,~treatment,HD vs Control,0
+3,~rep_block + treatment,Heat vs Control,0
+3,~rep_block + treatment,Drought vs Control,0
+3,~rep_block + treatment,HD vs Control,0
+4,~treatment,Heat vs Control,0
+4,~treatment,Drought vs Control,0
+4,~treatment,HD vs Control,0
+4,~rep_block + treatment,Heat vs Control,1
+4,~rep_block + treatment,Drought vs Control,70
+4,~rep_block + treatment,HD vs Control,14
+5,~treatment,Heat vs Control,0
+5,~treatment,Drought vs Control,0
+5,~treatment,HD vs Control,0
+5,~rep_block + treatment,Heat vs Control,1
+5,~rep_block + treatment,Drought vs Control,0
+5,~rep_block + treatment,HD vs Control,0
+6,~treatment,Heat vs Control,0
+6,~treatment,Drought vs Control,2
+6,~treatment,HD vs Control,0
+6,~rep_block + treatment,Heat vs Control,6
+6,~rep_block + treatment,Drought vs Control,5
+6,~rep_block + treatment,HD vs Control,2
+7,~treatment,Heat vs Control,0
+7,~treatment,Drought vs Control,0
+7,~treatment,HD vs Control,0
+7,~rep_block + treatment,Heat vs Control,0
+7,~rep_block + treatment,Drought vs Control,12
+7,~rep_block + treatment,HD vs Control,0
+8,~treatment,Heat vs Control,0
+8,~treatment,Drought vs Control,0
+8,~treatment,HD vs Control,0
+8,~rep_block + treatment,Heat vs Control,30
+8,~rep_block + treatment,Drought vs Control,0
+8,~rep_block + treatment,HD vs Control,0
+9,~treatment,Heat vs Control,2
+9,~treatment,Drought vs Control,0
+9,~treatment,HD vs Control,0
+9,~rep_block + treatment,Heat vs Control,4
+9,~rep_block + treatment,Drought vs Control,1
+9,~rep_block + treatment,HD vs Control,3
