@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=24
-#SBATCH --array=1-4
-#SBATCH --time=10:00:00
+#SBATCH --cpus-per-task=32
+#SBATCH --array=3
+#SBATCH --time=1:59:00
 #SBATCH --mem=80GB
 #SBATCH --job-name=soybean_realign
 #SBATCH --mail-type=FAIL
@@ -31,7 +31,7 @@ RUN_IDS=(
 FASTQ_LIST=(
   "/projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Raw_fastq_files/GR00_Rep1/Leaf_Control1/RNA_leaf_C1"
   "/projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Raw_fastq_files/GR00_Rep1/Leaf_control1A/RNA_leaf_C1A"
-  "/projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Raw_fastq_files/Rep_2/GR0073_RNA_resequenced_20251201_/GR0073/non_trimmed"
+  "/projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Raw_fastq_files/Rep_2/GR0073_20251117_correct_demultiplex_addedRNA/GR0073/untrimmed_MICHAEL_CREATED_for_confirmation"
   "/projects/rps/cgsb/bergelson/bergelson-lab/Michael_P/Collaborator_data/Raw_fastq_files/Rep_3/GR0192_RNA/RNA_fastq_raw"
 )
 
@@ -52,6 +52,6 @@ singularity exec --nv \
     --fastqs="$FASTQS" \
     --sample="$SAMPLE_PREFIX" \
     --chemistry=ARC-v1 \
-    --localcores=24 \
+    --localcores=32 \
     --create-bam=true \
     --localmem=75"
