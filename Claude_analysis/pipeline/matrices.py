@@ -125,6 +125,18 @@ def compare_matrices(a: ad.AnnData, b: ad.AnnData, label_a: str, label_b: str) -
         }
     )
 
+    # Direction of the disagreement. A pure read-depth difference (one of two
+    # sequencing runs missing) makes ``b`` uniformly *lower*: essentially every
+    # differing entry is down and no cell gains UMIs. A genuine alignment or
+    # reference difference scatters in both directions. This is the column that
+    # separates those two explanations.
+    if diff.nnz:
+        # ``diff`` is a - b, so a positive entry means b is the lower of the two.
+        out["frac_diff_entries_lower_in_" + label_b] = float((diff.data > 0).mean())
+    out["n_cells_higher_in_" + label_b] = int(
+        (np.asarray(B.sum(axis=1)).ravel() > np.asarray(A.sum(axis=1)).ravel()).sum()
+    )
+
     per_cell_a = np.asarray(A.sum(axis=1)).ravel()
     per_cell_b = np.asarray(B.sum(axis=1)).ravel()
     per_gene_a = np.asarray(A.sum(axis=0)).ravel()
@@ -141,9 +153,21 @@ def compare_matrices(a: ad.AnnData, b: ad.AnnData, label_a: str, label_b: str) -
 
 
 def _corr(x: np.ndarray, y: np.ndarray) -> float:
-    if x.std() == 0 or y.std() == 0:
+    """Pearson r between two 1-D vectors.
+
+    Written out element-wise rather than via ``np.corrcoef``, which routes
+    through ``np.cov`` -> gemm. Same answer, but it keeps a whole-script
+    dependency on a working BLAS out of what is only ever a correlation of two
+    vectors -- on Windows an unactivated conda env fails to load MKL and takes
+    the interpreter down with it.
+    """
+    x = np.asarray(x, dtype=np.float64).ravel()
+    y = np.asarray(y, dtype=np.float64).ravel()
+    xc, yc = x - x.mean(), y - y.mean()
+    denom = np.sqrt(np.square(xc).sum()) * np.sqrt(np.square(yc).sum())
+    if denom == 0:
         return np.nan
-    return float(np.corrcoef(x, y)[0, 1])
+    return float(np.multiply(xc, yc).sum() / denom)
 
 
 def compare_metrics(outs_a: Path, outs_b: Path, label_a: str, label_b: str) -> pd.DataFrame:

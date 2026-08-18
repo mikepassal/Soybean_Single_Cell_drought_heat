@@ -87,6 +87,26 @@ def compare_sample(sample: cfg.Sample, do_cellbender: bool) -> dict:
     return {"metrics": metrics, "matrix": rows}
 
 
+def realigned_metrics_table(samples: list[cfg.Sample]) -> pd.DataFrame:
+    """Our own CellRanger metrics for every library, whether or not theirs is on disk.
+
+    The collaborator's ``metrics_summary.csv`` is not part of every copy of their
+    data, but read depth is the thing that explains the rep2 libraries, so record
+    ours unconditionally.
+    """
+    rows = {}
+    for s in samples:
+        path = s.realigned_outs / "metrics_summary.csv"
+        if path.exists():
+            rows[s.run_id] = mx.read_metrics(s.realigned_outs)
+    if not rows:
+        return pd.DataFrame()
+    df = pd.DataFrame(rows).T
+    df.index.name = "run_id"
+    df.insert(0, "replicate", [cfg.SAMPLES_BY_RUN_ID[r].replicate for r in df.index])
+    return df
+
+
 def compare_to_analysis_object(samples: list[cfg.Sample]) -> pd.DataFrame:
     """How our realigned counts line up with the cells that survived into adata_rna.h5ad."""
     if not cfg.COLLAB_H5AD.exists():
@@ -162,6 +182,14 @@ def main() -> None:
                             "n_differing_entries", "frac_entries_differing",
                             "per_gene_umi_pearson"] if c in mdf]
         print("\n" + mdf[cols].to_string(index=False))
+
+    rmetrics = realigned_metrics_table(samples)
+    if len(rmetrics):
+        rmetrics.to_csv(args.outdir / "realigned_metrics_summary.csv")
+        print(f"wrote {args.outdir / 'realigned_metrics_summary.csv'}")
+        depth = rmetrics[["replicate", "Number of Reads", "Estimated Number of Cells",
+                          "Sequencing Saturation"]]
+        print("\n" + depth.to_string())
 
     final_df = compare_to_analysis_object(samples)
     if len(final_df):

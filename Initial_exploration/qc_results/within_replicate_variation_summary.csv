@@ -1,0 +1,87 @@
+resolution,split_by,replicate,group,median,cv,mad_over_median,fano,detection,n_units
+cell,celltype_call,rep1,Bundle sheath,0.0,3.1517,1.0,14.2426,0.1131,1897.0
+cell,celltype_call,rep1,Companion cells,0.0,3.1163,1.0,10.9479,0.1258,787.0
+cell,celltype_call,rep1,Epidermal,0.0,3.0666,1.0,13.0054,0.1272,1317.0
+cell,celltype_call,rep1,Epidermal/Pavement,0.0,3.4627,1.0,13.3647,0.08,25.0
+cell,celltype_call,rep1,Guard cells,0.0,2.8768,1.0,11.5442,0.1479,169.0
+cell,celltype_call,rep1,Hydathode cells,0.0,3.0787,1.0,10.6975,0.1226,155.0
+cell,celltype_call,rep1,Mesophyll,0.0,3.016,1.0,13.2287,0.1325,6925.0
+cell,celltype_call,rep1,Unknown,0.0,3.1948,1.0,10.1751,0.1111,99.0
+cell,celltype_call,rep1,Vascular/Phloem parenchyma,0.0,3.1593,1.0,13.1508,0.1155,277.0
+cell,celltype_call,rep1A,Bundle sheath,0.0,3.078,1.0,12.9037,0.1109,676.0
+cell,celltype_call,rep1A,Companion cells,0.0,3.182,1.0,10.7893,0.1079,241.0
+cell,celltype_call,rep1A,Epidermal,0.0,3.0399,1.0,12.5853,0.1133,309.0
+cell,celltype_call,rep1A,Epidermal/Pavement,0.0,3.0683,1.0,11.5631,0.1111,135.0
+cell,celltype_call,rep1A,Guard cells,0.0,2.8556,1.0,11.7185,0.122,41.0
+cell,celltype_call,rep1A,Hydathode cells,0.0,3.1298,1.0,10.9838,0.1064,47.0
+cell,celltype_call,rep1A,Mesophyll,0.0,3.0628,1.0,13.9821,0.1134,1865.0
+cell,celltype_call,rep1A,Unknown,0.0,3.2532,1.0,10.1353,0.0816,49.0
+cell,celltype_call,rep1A,Vascular/Phloem parenchyma,0.0,3.1205,1.0,12.1322,0.1124,89.0
+cell,celltype_call,rep2,Bundle sheath,0.0,3.07,1.0,13.4143,0.12,1067.0
+cell,celltype_call,rep2,Companion cells,0.0,2.8001,1.0,9.8345,0.1581,1151.0
+cell,celltype_call,rep2,Epidermal,0.0,2.7801,1.0,10.9408,0.1617,810.0
+cell,celltype_call,rep2,Guard cells,0.0,2.6241,1.0,10.0269,0.1784,269.0
+cell,celltype_call,rep2,Hydathode cells,0.0,3.0186,1.0,10.7456,0.1316,190.0
+cell,celltype_call,rep2,Mesophyll,0.0,2.9799,1.0,12.7682,0.1339,5916.0
+cell,celltype_call,rep2,Unknown,0.0,2.9755,1.0,9.9492,0.1304,138.0
+cell,celltype_call,rep2,Vascular/Phloem parenchyma,0.0,2.877,1.0,11.6403,0.1442,208.0
+cell,celltype_call,rep3,Bundle sheath,0.0,3.2393,1.0,12.5351,0.1078,232.0
+cell,celltype_call,rep3,Companion cells,0.0,3.2827,1.0,10.9571,0.1053,304.0
+cell,celltype_call,rep3,Epidermal,0.0,3.4182,1.0,13.9183,0.093,129.0
+cell,celltype_call,rep3,Epidermal/Pavement,0.0,3.5432,1.0,13.6531,0.0893,582.0
+cell,celltype_call,rep3,Guard cells,0.0,3.3393,1.0,12.2528,0.0952,84.0
+cell,celltype_call,rep3,Hydathode cells,0.0,3.0764,1.0,9.4506,0.1034,29.0
+cell,celltype_call,rep3,Mesophyll,0.0,3.3513,1.0,14.8191,0.1022,4071.0
+cell,celltype_call,rep3,Unknown,0.0,3.115,1.0,9.5715,0.1139,79.0
+cell,celltype_call,rep3,Vascular/Phloem parenchyma,0.0,3.4442,1.0,12.1854,0.0865,104.0
+cell,treatment,rep1,Control,0.0,3.0348,1.0,12.9817,0.1318,3740.0
+cell,treatment,rep1,Drought,0.0,3.2996,1.0,14.8729,0.1025,1434.0
+cell,treatment,rep1,HD,0.0,3.0045,1.0,11.9337,0.1326,5538.0
+cell,treatment,rep1,Heat,0.0,3.3416,1.0,15.8975,0.0958,939.0
+cell,treatment,rep1A,Control,0.0,3.0737,1.0,13.5242,0.1167,3452.0
+cell,treatment,rep2,Control,0.0,3.1903,1.0,13.9821,0.1106,823.0
+cell,treatment,rep2,Drought,0.0,2.8738,1.0,11.4572,0.1496,2855.0
+cell,treatment,rep2,HD,0.0,2.8583,1.0,11.4359,0.153,3690.0
+cell,treatment,rep2,Heat,0.0,3.071,1.0,13.3002,0.1138,2381.0
+cell,treatment,rep3,Control,0.0,3.3705,1.0,14.1363,0.0998,1683.0
+cell,treatment,rep3,Drought,0.0,3.417,1.0,14.55,0.0975,1036.0
+cell,treatment,rep3,HD,0.0,3.3212,1.0,13.2463,0.104,702.0
+cell,treatment,rep3,Heat,0.0,3.3287,1.0,15.1085,0.104,2193.0
+metacell,celltype_call,rep1,Bundle sheath,1.1038,0.8826,0.6385,1.0283,0.8172,93.0
+metacell,celltype_call,rep1,Companion cells,0.9347,0.8581,0.5693,0.8092,0.8611,36.0
+metacell,celltype_call,rep1,Epidermal,1.0548,0.8651,0.6155,1.0007,0.8226,62.0
+metacell,celltype_call,rep1,Guard cells,1.3571,0.5628,0.2877,0.4598,1.0,4.0
+metacell,celltype_call,rep1,Hydathode cells,0.9968,0.7875,0.4555,0.6912,1.0,5.0
+metacell,celltype_call,rep1,Mesophyll,1.0969,0.9645,0.7443,1.3334,0.7876,339.0
+metacell,celltype_call,rep1,Vascular/Phloem parenchyma,1.1858,0.8225,0.5611,0.911,0.9,10.0
+metacell,celltype_call,rep1A,Bundle sheath,1.2685,0.7211,0.4743,0.7069,0.9,30.0
+metacell,celltype_call,rep1A,Companion cells,0.9039,0.7942,0.4692,0.6664,0.8182,11.0
+metacell,celltype_call,rep1A,Epidermal,1.2036,0.7023,0.4591,0.6534,0.9286,14.0
+metacell,celltype_call,rep1A,Epidermal/Pavement,1.1169,0.7165,0.426,0.6851,0.8333,6.0
+metacell,celltype_call,rep1A,Mesophyll,1.1825,0.8781,0.6032,1.107,0.8,90.0
+metacell,celltype_call,rep1A,Vascular/Phloem parenchyma,1.1854,0.6568,0.3217,0.5526,1.0,4.0
+metacell,celltype_call,rep2,Bundle sheath,1.2251,0.8009,0.5492,0.9222,0.8462,52.0
+metacell,celltype_call,rep2,Companion cells,1.1131,0.7506,0.5128,0.7098,0.8889,54.0
+metacell,celltype_call,rep2,Epidermal,1.2486,0.7306,0.4771,0.7567,0.8947,38.0
+metacell,celltype_call,rep2,Guard cells,1.2561,0.6838,0.4219,0.6712,0.9091,11.0
+metacell,celltype_call,rep2,Hydathode cells,1.0907,0.7185,0.4406,0.617,0.8571,7.0
+metacell,celltype_call,rep2,Mesophyll,1.1368,0.8721,0.6187,1.0727,0.8282,291.0
+metacell,celltype_call,rep2,Vascular/Phloem parenchyma,1.3166,0.6466,0.3904,0.5909,1.0,7.0
+metacell,celltype_call,rep3,Bundle sheath,1.0024,0.7577,0.4455,0.7115,0.8571,7.0
+metacell,celltype_call,rep3,Companion cells,0.9312,0.8341,0.5147,0.7089,0.8333,12.0
+metacell,celltype_call,rep3,Epidermal,1.0969,0.7237,0.3964,0.6737,0.8,5.0
+metacell,celltype_call,rep3,Epidermal/Pavement,0.9369,0.8617,0.5696,0.8131,0.8148,27.0
+metacell,celltype_call,rep3,Mesophyll,1.1063,0.8928,0.5993,1.043,0.7959,196.0
+metacell,treatment,rep1,Control,1.1625,0.8695,0.5866,0.9975,0.8261,184.0
+metacell,treatment,rep1,Drought,1.1577,0.8817,0.5892,1.0442,0.8095,63.0
+metacell,treatment,rep1,HD,1.0663,0.8828,0.6142,0.9354,0.8271,266.0
+metacell,treatment,rep1,Heat,1.2207,0.8872,0.5923,1.106,0.8158,38.0
+metacell,treatment,rep1A,Control,1.1636,0.862,0.5896,1.0291,0.8261,161.0
+metacell,treatment,rep2,Control,1.2431,0.8382,0.5485,0.9496,0.8182,33.0
+metacell,treatment,rep2,Drought,1.2111,0.7791,0.5003,0.7581,0.8686,137.0
+metacell,treatment,rep2,HD,1.222,0.7844,0.5209,0.8117,0.8764,178.0
+metacell,treatment,rep2,Heat,1.2238,0.8341,0.5848,0.9344,0.8333,114.0
+metacell,treatment,rep3,Control,1.0441,0.8775,0.5871,0.9269,0.8108,74.0
+metacell,treatment,rep3,Drought,1.1062,0.8488,0.5735,0.8998,0.8372,43.0
+metacell,treatment,rep3,HD,1.0034,0.8535,0.5614,0.8467,0.8214,28.0
+metacell,treatment,rep3,Heat,1.1273,0.8929,0.6202,1.0799,0.7981,104.0

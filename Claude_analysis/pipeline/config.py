@@ -7,10 +7,16 @@ The manifest is the single place that ties together the three views of each libr
 * ``collab_dir``  -- the collaborator's CellRanger output directory
 * ``library``     -- the ``libraries`` / ``sample`` value inside ``adata_rna.h5ad``
 
-Only the control condition has been realigned so far; the other three are still
-running. Nothing here hard-codes that. ``available_samples()`` looks on disk and
-returns whatever is actually present, so the same scripts run today on control
-alone and unchanged once heat, drought and HD land.
+``available_samples()`` looks on disk and returns whatever is actually present, so
+the same scripts run on a partial realignment and unchanged once every condition
+lands.
+
+Paths are resolved per machine rather than hard-coded, because the analysis has
+run on two: the original Mac, and a Windows box whose copy of the collaborator
+data holds only the *filtered* matrices, flattened to one directory per library
+(``Cellranger_output/<condition>/<rep>/``) with no ``outs/`` wrapper, no raw
+matrix, no ``metrics_summary.csv`` and no CellBender h5. ``Sample.matrix_dir``
+hides that difference; the stages that need the missing files check for them.
 """
 
 from __future__ import annotations
@@ -18,16 +24,36 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
 # --------------------------------------------------------------------------- paths
 
-DATA_ROOT = Path("/Users/michael/Data/Soybean_data")
 
-REALIGNED_ROOT = DATA_ROOT / "Realigned_data"
-COLLAB_ROOT = DATA_ROOT / "Cell_ranger_output"
-COLLAB_H5AD = DATA_ROOT / "adata_rna.h5ad"
+def _first_existing(*candidates: Path, default: Path | None = None) -> Path:
+    for c in candidates:
+        if c.exists():
+            return c
+    return default if default is not None else candidates[0]
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-ANALYSIS_ROOT = Path(__file__).resolve().parents[1]      # Claude_analysis/
+
+REALIGNED_ROOT = _first_existing(
+    Path("/Users/michael/Data/Soybean_data/Realigned_data"),
+    Path("C:/Users/mikep/Data/Soybean/realigned_data"),
+)
+COLLAB_ROOT = _first_existing(
+    Path("/Users/michael/Data/Soybean_data/Cell_ranger_output"),
+    Path("C:/Users/mikep/Data/Cellranger_output"),
+)
+COLLAB_H5AD = _first_existing(
+    Path("/Users/michael/Data/Soybean_data/adata_rna.h5ad"),
+    REPO_ROOT / "Data" / "anndata_export" / "adata_rna.h5ad",
+)
+
+# The Windows copy is flattened: <condition>/<rep>/matrix.mtx.gz, filtered only.
+# The Mac copy is the full CellRanger tree: <long_condition_dir>/<run_dir>/outs/.
+COLLAB_LAYOUT = "flat" if (COLLAB_ROOT / "control" / "rep1" / "matrix.mtx.gz").exists() else "cellranger"
+
+ANALYSIS_ROOT = REPO_ROOT / "Claude_analysis"
 RESULTS_ROOT = ANALYSIS_ROOT / "results"                 # gitignored: ~3 GB of tables
 SUMMARY_ROOT = ANALYSIS_ROOT / "results_summary"         # committed: the small tables
 CACHE_ROOT = RESULTS_ROOT / "cache"
@@ -46,6 +72,14 @@ COLLAB_CELLBENDER_DIRS = {
     "heat": "cellbender_auto_heat_andygenome_v3",
     "drought": "cellbender_auto_drought_v3",
     "heat_drought": "cellbender_auto_HD_v3_andrewgenome",
+}
+
+# Condition directory names under the flat layout.
+COLLAB_FLAT_CONDITION_DIRS = {
+    "control": "control",
+    "heat": "heat",
+    "drought": "drought",
+    "heat_drought": "HD",
 }
 
 # --------------------------------------------------------------------------- labels
@@ -90,13 +124,24 @@ class Sample:
         return COLLAB_ROOT / COLLAB_CONDITION_DIRS[self.condition] / self.collab_dir / "outs"
 
     @property
+    def collab_flat_dir(self) -> Path:
+        """The one directory holding this library's collaborator matrix, flat layout."""
+        return COLLAB_ROOT / COLLAB_FLAT_CONDITION_DIRS[self.condition] / self.replicate.lower()
+
+    @property
     def cellbender_h5(self) -> Path:
         base = COLLAB_ROOT / COLLAB_CONDITION_DIRS[self.condition]
         cb = base / COLLAB_CELLBENDER_DIRS[self.condition] / self.collab_dir
         return cb / f"cellbender_{self.collab_dir}_filtered.h5"
 
     def matrix_dir(self, source: str, filtered: bool = True) -> Path:
-        """``source`` is 'realigned' or 'collaborator'."""
+        """``source`` is 'realigned' or 'collaborator'.
+
+        Under the flat collaborator layout only the filtered matrix exists; the
+        returned raw path will simply not be there, which callers already test for.
+        """
+        if source == "collaborator" and COLLAB_LAYOUT == "flat":
+            return self.collab_flat_dir if filtered else self.collab_flat_dir / "raw_feature_bc_matrix"
         outs = self.realigned_outs if source == "realigned" else self.collab_outs
         return outs / ("filtered_feature_bc_matrix" if filtered else "raw_feature_bc_matrix")
 

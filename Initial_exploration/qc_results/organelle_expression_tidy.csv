@@ -1,0 +1,1793 @@
+celltype_call,replicate,treatment,metric,value,organelle_set,n_cells,total_umis
+Bundle sheath,rep1,Control,total,8349.0,cp,630,756646
+Bundle sheath,rep1,Control,median_gene,39.5,cp,630,756646
+Bundle sheath,rep1,Control,median_gene_per_cell,0.0627,cp,630,756646
+Bundle sheath,rep1,Control,pct_reads,1.1034,cp,630,756646
+Bundle sheath,rep1,Control,total,948.0,ct,630,756646
+Bundle sheath,rep1,Control,median_gene,0.0,ct,630,756646
+Bundle sheath,rep1,Control,median_gene_per_cell,0.0,ct,630,756646
+Bundle sheath,rep1,Control,pct_reads,0.1253,ct,630,756646
+Bundle sheath,rep1,Control,total,128682.0,cr,630,756646
+Bundle sheath,rep1,Control,median_gene,0.0,cr,630,756646
+Bundle sheath,rep1,Control,median_gene_per_cell,0.0,cr,630,756646
+Bundle sheath,rep1,Control,pct_reads,17.0069,cr,630,756646
+Bundle sheath,rep1,Control,total,137979.0,organelle,630,756646
+Bundle sheath,rep1,Control,median_gene,11.5,organelle,630,756646
+Bundle sheath,rep1,Control,median_gene_per_cell,0.0183,organelle,630,756646
+Bundle sheath,rep1,Control,pct_reads,18.2356,organelle,630,756646
+Bundle sheath,rep1,Drought,total,4538.0,cp,283,323196
+Bundle sheath,rep1,Drought,median_gene,13.0,cp,283,323196
+Bundle sheath,rep1,Drought,median_gene_per_cell,0.0459,cp,283,323196
+Bundle sheath,rep1,Drought,pct_reads,1.4041,cp,283,323196
+Bundle sheath,rep1,Drought,total,521.0,ct,283,323196
+Bundle sheath,rep1,Drought,median_gene,0.0,ct,283,323196
+Bundle sheath,rep1,Drought,median_gene_per_cell,0.0,ct,283,323196
+Bundle sheath,rep1,Drought,pct_reads,0.1612,ct,283,323196
+Bundle sheath,rep1,Drought,total,80472.0,cr,283,323196
+Bundle sheath,rep1,Drought,median_gene,3.5,cr,283,323196
+Bundle sheath,rep1,Drought,median_gene_per_cell,0.0124,cr,283,323196
+Bundle sheath,rep1,Drought,pct_reads,24.8988,cr,283,323196
+Bundle sheath,rep1,Drought,total,85531.0,organelle,283,323196
+Bundle sheath,rep1,Drought,median_gene,5.0,organelle,283,323196
+Bundle sheath,rep1,Drought,median_gene_per_cell,0.0177,organelle,283,323196
+Bundle sheath,rep1,Drought,pct_reads,26.4641,organelle,283,323196
+Bundle sheath,rep1,HD,total,5379.0,cp,800,783340
+Bundle sheath,rep1,HD,median_gene,19.0,cp,800,783340
+Bundle sheath,rep1,HD,median_gene_per_cell,0.0238,cp,800,783340
+Bundle sheath,rep1,HD,pct_reads,0.6867,cp,800,783340
+Bundle sheath,rep1,HD,total,899.0,ct,800,783340
+Bundle sheath,rep1,HD,median_gene,0.0,ct,800,783340
+Bundle sheath,rep1,HD,median_gene_per_cell,0.0,ct,800,783340
+Bundle sheath,rep1,HD,pct_reads,0.1148,ct,800,783340
+Bundle sheath,rep1,HD,total,72940.0,cr,800,783340
+Bundle sheath,rep1,HD,median_gene,0.0,cr,800,783340
+Bundle sheath,rep1,HD,median_gene_per_cell,0.0,cr,800,783340
+Bundle sheath,rep1,HD,pct_reads,9.3114,cr,800,783340
+Bundle sheath,rep1,HD,total,79218.0,organelle,800,783340
+Bundle sheath,rep1,HD,median_gene,5.0,organelle,800,783340
+Bundle sheath,rep1,HD,median_gene_per_cell,0.0062,organelle,800,783340
+Bundle sheath,rep1,HD,pct_reads,10.1129,organelle,800,783340
+Bundle sheath,rep1,Heat,total,1954.0,cp,184,170671
+Bundle sheath,rep1,Heat,median_gene,9.0,cp,184,170671
+Bundle sheath,rep1,Heat,median_gene_per_cell,0.0489,cp,184,170671
+Bundle sheath,rep1,Heat,pct_reads,1.1449,cp,184,170671
+Bundle sheath,rep1,Heat,total,145.0,ct,184,170671
+Bundle sheath,rep1,Heat,median_gene,0.0,ct,184,170671
+Bundle sheath,rep1,Heat,median_gene_per_cell,0.0,ct,184,170671
+Bundle sheath,rep1,Heat,pct_reads,0.085,ct,184,170671
+Bundle sheath,rep1,Heat,total,25383.0,cr,184,170671
+Bundle sheath,rep1,Heat,median_gene,0.5,cr,184,170671
+Bundle sheath,rep1,Heat,median_gene_per_cell,0.0027,cr,184,170671
+Bundle sheath,rep1,Heat,pct_reads,14.8725,cr,184,170671
+Bundle sheath,rep1,Heat,total,27482.0,organelle,184,170671
+Bundle sheath,rep1,Heat,median_gene,2.0,organelle,184,170671
+Bundle sheath,rep1,Heat,median_gene_per_cell,0.0109,organelle,184,170671
+Bundle sheath,rep1,Heat,pct_reads,16.1023,organelle,184,170671
+Bundle sheath,rep1A,Control,total,12218.0,cp,676,749184
+Bundle sheath,rep1A,Control,median_gene,46.5,cp,676,749184
+Bundle sheath,rep1A,Control,median_gene_per_cell,0.0688,cp,676,749184
+Bundle sheath,rep1A,Control,pct_reads,1.6308,cp,676,749184
+Bundle sheath,rep1A,Control,total,1028.0,ct,676,749184
+Bundle sheath,rep1A,Control,median_gene,0.0,ct,676,749184
+Bundle sheath,rep1A,Control,median_gene_per_cell,0.0,ct,676,749184
+Bundle sheath,rep1A,Control,pct_reads,0.1372,ct,676,749184
+Bundle sheath,rep1A,Control,total,114404.0,cr,676,749184
+Bundle sheath,rep1A,Control,median_gene,0.5,cr,676,749184
+Bundle sheath,rep1A,Control,median_gene_per_cell,0.0007,cr,676,749184
+Bundle sheath,rep1A,Control,pct_reads,15.2705,cr,676,749184
+Bundle sheath,rep1A,Control,total,127650.0,organelle,676,749184
+Bundle sheath,rep1A,Control,median_gene,8.5,organelle,676,749184
+Bundle sheath,rep1A,Control,median_gene_per_cell,0.0126,organelle,676,749184
+Bundle sheath,rep1A,Control,pct_reads,17.0385,organelle,676,749184
+Bundle sheath,rep2,Control,total,1219.0,cp,123,149023
+Bundle sheath,rep2,Control,median_gene,4.0,cp,123,149023
+Bundle sheath,rep2,Control,median_gene_per_cell,0.0325,cp,123,149023
+Bundle sheath,rep2,Control,pct_reads,0.818,cp,123,149023
+Bundle sheath,rep2,Control,total,53.0,ct,123,149023
+Bundle sheath,rep2,Control,median_gene,0.0,ct,123,149023
+Bundle sheath,rep2,Control,median_gene_per_cell,0.0,ct,123,149023
+Bundle sheath,rep2,Control,pct_reads,0.0356,ct,123,149023
+Bundle sheath,rep2,Control,total,40643.0,cr,123,149023
+Bundle sheath,rep2,Control,median_gene,0.5,cr,123,149023
+Bundle sheath,rep2,Control,median_gene_per_cell,0.0041,cr,123,149023
+Bundle sheath,rep2,Control,pct_reads,27.273,cr,123,149023
+Bundle sheath,rep2,Control,total,41915.0,organelle,123,149023
+Bundle sheath,rep2,Control,median_gene,1.0,organelle,123,149023
+Bundle sheath,rep2,Control,median_gene_per_cell,0.0081,organelle,123,149023
+Bundle sheath,rep2,Control,pct_reads,28.1265,organelle,123,149023
+Bundle sheath,rep2,Drought,total,8365.0,cp,245,473710
+Bundle sheath,rep2,Drought,median_gene,22.0,cp,245,473710
+Bundle sheath,rep2,Drought,median_gene_per_cell,0.0898,cp,245,473710
+Bundle sheath,rep2,Drought,pct_reads,1.7658,cp,245,473710
+Bundle sheath,rep2,Drought,total,709.0,ct,245,473710
+Bundle sheath,rep2,Drought,median_gene,0.0,ct,245,473710
+Bundle sheath,rep2,Drought,median_gene_per_cell,0.0,ct,245,473710
+Bundle sheath,rep2,Drought,pct_reads,0.1497,ct,245,473710
+Bundle sheath,rep2,Drought,total,207464.0,cr,245,473710
+Bundle sheath,rep2,Drought,median_gene,2.5,cr,245,473710
+Bundle sheath,rep2,Drought,median_gene_per_cell,0.0102,cr,245,473710
+Bundle sheath,rep2,Drought,pct_reads,43.7956,cr,245,473710
+Bundle sheath,rep2,Drought,total,216538.0,organelle,245,473710
+Bundle sheath,rep2,Drought,median_gene,5.5,organelle,245,473710
+Bundle sheath,rep2,Drought,median_gene_per_cell,0.0224,organelle,245,473710
+Bundle sheath,rep2,Drought,pct_reads,45.7111,organelle,245,473710
+Bundle sheath,rep2,HD,total,4321.0,cp,391,484934
+Bundle sheath,rep2,HD,median_gene,11.0,cp,391,484934
+Bundle sheath,rep2,HD,median_gene_per_cell,0.0281,cp,391,484934
+Bundle sheath,rep2,HD,pct_reads,0.891,cp,391,484934
+Bundle sheath,rep2,HD,total,413.0,ct,391,484934
+Bundle sheath,rep2,HD,median_gene,0.0,ct,391,484934
+Bundle sheath,rep2,HD,median_gene_per_cell,0.0,ct,391,484934
+Bundle sheath,rep2,HD,pct_reads,0.0852,ct,391,484934
+Bundle sheath,rep2,HD,total,77305.0,cr,391,484934
+Bundle sheath,rep2,HD,median_gene,1.0,cr,391,484934
+Bundle sheath,rep2,HD,median_gene_per_cell,0.0026,cr,391,484934
+Bundle sheath,rep2,HD,pct_reads,15.9413,cr,391,484934
+Bundle sheath,rep2,HD,total,82039.0,organelle,391,484934
+Bundle sheath,rep2,HD,median_gene,3.0,organelle,391,484934
+Bundle sheath,rep2,HD,median_gene_per_cell,0.0077,organelle,391,484934
+Bundle sheath,rep2,HD,pct_reads,16.9176,organelle,391,484934
+Bundle sheath,rep2,Heat,total,1398.0,cp,308,290965
+Bundle sheath,rep2,Heat,median_gene,4.0,cp,308,290965
+Bundle sheath,rep2,Heat,median_gene_per_cell,0.013,cp,308,290965
+Bundle sheath,rep2,Heat,pct_reads,0.4805,cp,308,290965
+Bundle sheath,rep2,Heat,total,117.0,ct,308,290965
+Bundle sheath,rep2,Heat,median_gene,0.0,ct,308,290965
+Bundle sheath,rep2,Heat,median_gene_per_cell,0.0,ct,308,290965
+Bundle sheath,rep2,Heat,pct_reads,0.0402,ct,308,290965
+Bundle sheath,rep2,Heat,total,38880.0,cr,308,290965
+Bundle sheath,rep2,Heat,median_gene,0.0,cr,308,290965
+Bundle sheath,rep2,Heat,median_gene_per_cell,0.0,cr,308,290965
+Bundle sheath,rep2,Heat,pct_reads,13.3624,cr,308,290965
+Bundle sheath,rep2,Heat,total,40395.0,organelle,308,290965
+Bundle sheath,rep2,Heat,median_gene,1.0,organelle,308,290965
+Bundle sheath,rep2,Heat,median_gene_per_cell,0.0032,organelle,308,290965
+Bundle sheath,rep2,Heat,pct_reads,13.8831,organelle,308,290965
+Bundle sheath,rep3,Control,total,172.0,cp,32,37203
+Bundle sheath,rep3,Control,median_gene,1.0,cp,32,37203
+Bundle sheath,rep3,Control,median_gene_per_cell,0.0312,cp,32,37203
+Bundle sheath,rep3,Control,pct_reads,0.4623,cp,32,37203
+Bundle sheath,rep3,Control,total,18.0,ct,32,37203
+Bundle sheath,rep3,Control,median_gene,0.0,ct,32,37203
+Bundle sheath,rep3,Control,median_gene_per_cell,0.0,ct,32,37203
+Bundle sheath,rep3,Control,pct_reads,0.0484,ct,32,37203
+Bundle sheath,rep3,Control,total,22.0,cr,32,37203
+Bundle sheath,rep3,Control,median_gene,0.0,cr,32,37203
+Bundle sheath,rep3,Control,median_gene_per_cell,0.0,cr,32,37203
+Bundle sheath,rep3,Control,pct_reads,0.0591,cr,32,37203
+Bundle sheath,rep3,Control,total,212.0,organelle,32,37203
+Bundle sheath,rep3,Control,median_gene,0.0,organelle,32,37203
+Bundle sheath,rep3,Control,median_gene_per_cell,0.0,organelle,32,37203
+Bundle sheath,rep3,Control,pct_reads,0.5698,organelle,32,37203
+Bundle sheath,rep3,Drought,total,175.0,cp,36,44020
+Bundle sheath,rep3,Drought,median_gene,1.0,cp,36,44020
+Bundle sheath,rep3,Drought,median_gene_per_cell,0.0278,cp,36,44020
+Bundle sheath,rep3,Drought,pct_reads,0.3975,cp,36,44020
+Bundle sheath,rep3,Drought,total,17.0,ct,36,44020
+Bundle sheath,rep3,Drought,median_gene,0.0,ct,36,44020
+Bundle sheath,rep3,Drought,median_gene_per_cell,0.0,ct,36,44020
+Bundle sheath,rep3,Drought,pct_reads,0.0386,ct,36,44020
+Bundle sheath,rep3,Drought,total,50.0,cr,36,44020
+Bundle sheath,rep3,Drought,median_gene,0.0,cr,36,44020
+Bundle sheath,rep3,Drought,median_gene_per_cell,0.0,cr,36,44020
+Bundle sheath,rep3,Drought,pct_reads,0.1136,cr,36,44020
+Bundle sheath,rep3,Drought,total,242.0,organelle,36,44020
+Bundle sheath,rep3,Drought,median_gene,0.0,organelle,36,44020
+Bundle sheath,rep3,Drought,median_gene_per_cell,0.0,organelle,36,44020
+Bundle sheath,rep3,Drought,pct_reads,0.5498,organelle,36,44020
+Bundle sheath,rep3,HD,total,91.0,cp,22,28439
+Bundle sheath,rep3,HD,median_gene,0.0,cp,22,28439
+Bundle sheath,rep3,HD,median_gene_per_cell,0.0,cp,22,28439
+Bundle sheath,rep3,HD,pct_reads,0.32,cp,22,28439
+Bundle sheath,rep3,HD,total,10.0,ct,22,28439
+Bundle sheath,rep3,HD,median_gene,0.0,ct,22,28439
+Bundle sheath,rep3,HD,median_gene_per_cell,0.0,ct,22,28439
+Bundle sheath,rep3,HD,pct_reads,0.0352,ct,22,28439
+Bundle sheath,rep3,HD,total,32.0,cr,22,28439
+Bundle sheath,rep3,HD,median_gene,0.0,cr,22,28439
+Bundle sheath,rep3,HD,median_gene_per_cell,0.0,cr,22,28439
+Bundle sheath,rep3,HD,pct_reads,0.1125,cr,22,28439
+Bundle sheath,rep3,HD,total,133.0,organelle,22,28439
+Bundle sheath,rep3,HD,median_gene,0.0,organelle,22,28439
+Bundle sheath,rep3,HD,median_gene_per_cell,0.0,organelle,22,28439
+Bundle sheath,rep3,HD,pct_reads,0.4677,organelle,22,28439
+Bundle sheath,rep3,Heat,total,616.0,cp,142,135905
+Bundle sheath,rep3,Heat,median_gene,2.5,cp,142,135905
+Bundle sheath,rep3,Heat,median_gene_per_cell,0.0176,cp,142,135905
+Bundle sheath,rep3,Heat,pct_reads,0.4533,cp,142,135905
+Bundle sheath,rep3,Heat,total,67.0,ct,142,135905
+Bundle sheath,rep3,Heat,median_gene,0.0,ct,142,135905
+Bundle sheath,rep3,Heat,median_gene_per_cell,0.0,ct,142,135905
+Bundle sheath,rep3,Heat,pct_reads,0.0493,ct,142,135905
+Bundle sheath,rep3,Heat,total,257.0,cr,142,135905
+Bundle sheath,rep3,Heat,median_gene,0.0,cr,142,135905
+Bundle sheath,rep3,Heat,median_gene_per_cell,0.0,cr,142,135905
+Bundle sheath,rep3,Heat,pct_reads,0.1891,cr,142,135905
+Bundle sheath,rep3,Heat,total,940.0,organelle,142,135905
+Bundle sheath,rep3,Heat,median_gene,1.0,organelle,142,135905
+Bundle sheath,rep3,Heat,median_gene_per_cell,0.007,organelle,142,135905
+Bundle sheath,rep3,Heat,pct_reads,0.6917,organelle,142,135905
+Companion cells,rep1,Control,total,5212.0,cp,264,470058
+Companion cells,rep1,Control,median_gene,26.0,cp,264,470058
+Companion cells,rep1,Control,median_gene_per_cell,0.0985,cp,264,470058
+Companion cells,rep1,Control,pct_reads,1.1088,cp,264,470058
+Companion cells,rep1,Control,total,507.0,ct,264,470058
+Companion cells,rep1,Control,median_gene,0.0,ct,264,470058
+Companion cells,rep1,Control,median_gene_per_cell,0.0,ct,264,470058
+Companion cells,rep1,Control,pct_reads,0.1079,ct,264,470058
+Companion cells,rep1,Control,total,58054.0,cr,264,470058
+Companion cells,rep1,Control,median_gene,0.0,cr,264,470058
+Companion cells,rep1,Control,median_gene_per_cell,0.0,cr,264,470058
+Companion cells,rep1,Control,pct_reads,12.3504,cr,264,470058
+Companion cells,rep1,Control,total,63773.0,organelle,264,470058
+Companion cells,rep1,Control,median_gene,6.0,organelle,264,470058
+Companion cells,rep1,Control,median_gene_per_cell,0.0227,organelle,264,470058
+Companion cells,rep1,Control,pct_reads,13.567,organelle,264,470058
+Companion cells,rep1,Drought,total,2086.0,cp,129,164937
+Companion cells,rep1,Drought,median_gene,7.0,cp,129,164937
+Companion cells,rep1,Drought,median_gene_per_cell,0.0543,cp,129,164937
+Companion cells,rep1,Drought,pct_reads,1.2647,cp,129,164937
+Companion cells,rep1,Drought,total,253.0,ct,129,164937
+Companion cells,rep1,Drought,median_gene,0.0,ct,129,164937
+Companion cells,rep1,Drought,median_gene_per_cell,0.0,ct,129,164937
+Companion cells,rep1,Drought,pct_reads,0.1534,ct,129,164937
+Companion cells,rep1,Drought,total,38154.0,cr,129,164937
+Companion cells,rep1,Drought,median_gene,1.0,cr,129,164937
+Companion cells,rep1,Drought,median_gene_per_cell,0.0078,cr,129,164937
+Companion cells,rep1,Drought,pct_reads,23.1325,cr,129,164937
+Companion cells,rep1,Drought,total,40493.0,organelle,129,164937
+Companion cells,rep1,Drought,median_gene,2.0,organelle,129,164937
+Companion cells,rep1,Drought,median_gene_per_cell,0.0155,organelle,129,164937
+Companion cells,rep1,Drought,pct_reads,24.5506,organelle,129,164937
+Companion cells,rep1,HD,total,4188.0,cp,296,440641
+Companion cells,rep1,HD,median_gene,16.0,cp,296,440641
+Companion cells,rep1,HD,median_gene_per_cell,0.0541,cp,296,440641
+Companion cells,rep1,HD,pct_reads,0.9504,cp,296,440641
+Companion cells,rep1,HD,total,654.0,ct,296,440641
+Companion cells,rep1,HD,median_gene,0.0,ct,296,440641
+Companion cells,rep1,HD,median_gene_per_cell,0.0,ct,296,440641
+Companion cells,rep1,HD,pct_reads,0.1484,ct,296,440641
+Companion cells,rep1,HD,total,39917.0,cr,296,440641
+Companion cells,rep1,HD,median_gene,0.0,cr,296,440641
+Companion cells,rep1,HD,median_gene_per_cell,0.0,cr,296,440641
+Companion cells,rep1,HD,pct_reads,9.0588,cr,296,440641
+Companion cells,rep1,HD,total,44759.0,organelle,296,440641
+Companion cells,rep1,HD,median_gene,2.0,organelle,296,440641
+Companion cells,rep1,HD,median_gene_per_cell,0.0068,organelle,296,440641
+Companion cells,rep1,HD,pct_reads,10.1577,organelle,296,440641
+Companion cells,rep1,Heat,total,828.0,cp,98,93702
+Companion cells,rep1,Heat,median_gene,2.5,cp,98,93702
+Companion cells,rep1,Heat,median_gene_per_cell,0.0255,cp,98,93702
+Companion cells,rep1,Heat,pct_reads,0.8837,cp,98,93702
+Companion cells,rep1,Heat,total,89.0,ct,98,93702
+Companion cells,rep1,Heat,median_gene,0.0,ct,98,93702
+Companion cells,rep1,Heat,median_gene_per_cell,0.0,ct,98,93702
+Companion cells,rep1,Heat,pct_reads,0.095,ct,98,93702
+Companion cells,rep1,Heat,total,9517.0,cr,98,93702
+Companion cells,rep1,Heat,median_gene,0.0,cr,98,93702
+Companion cells,rep1,Heat,median_gene_per_cell,0.0,cr,98,93702
+Companion cells,rep1,Heat,pct_reads,10.1567,cr,98,93702
+Companion cells,rep1,Heat,total,10434.0,organelle,98,93702
+Companion cells,rep1,Heat,median_gene,0.5,organelle,98,93702
+Companion cells,rep1,Heat,median_gene_per_cell,0.0051,organelle,98,93702
+Companion cells,rep1,Heat,pct_reads,11.1353,organelle,98,93702
+Companion cells,rep1A,Control,total,4540.0,cp,241,319244
+Companion cells,rep1A,Control,median_gene,16.0,cp,241,319244
+Companion cells,rep1A,Control,median_gene_per_cell,0.0664,cp,241,319244
+Companion cells,rep1A,Control,pct_reads,1.4221,cp,241,319244
+Companion cells,rep1A,Control,total,406.0,ct,241,319244
+Companion cells,rep1A,Control,median_gene,0.0,ct,241,319244
+Companion cells,rep1A,Control,median_gene_per_cell,0.0,ct,241,319244
+Companion cells,rep1A,Control,pct_reads,0.1272,ct,241,319244
+Companion cells,rep1A,Control,total,36898.0,cr,241,319244
+Companion cells,rep1A,Control,median_gene,0.5,cr,241,319244
+Companion cells,rep1A,Control,median_gene_per_cell,0.0021,cr,241,319244
+Companion cells,rep1A,Control,pct_reads,11.5579,cr,241,319244
+Companion cells,rep1A,Control,total,41844.0,organelle,241,319244
+Companion cells,rep1A,Control,median_gene,3.0,organelle,241,319244
+Companion cells,rep1A,Control,median_gene_per_cell,0.0124,organelle,241,319244
+Companion cells,rep1A,Control,pct_reads,13.1072,organelle,241,319244
+Companion cells,rep2,Control,total,1317.0,cp,132,172858
+Companion cells,rep2,Control,median_gene,2.5,cp,132,172858
+Companion cells,rep2,Control,median_gene_per_cell,0.0189,cp,132,172858
+Companion cells,rep2,Control,pct_reads,0.7619,cp,132,172858
+Companion cells,rep2,Control,total,81.0,ct,132,172858
+Companion cells,rep2,Control,median_gene,0.0,ct,132,172858
+Companion cells,rep2,Control,median_gene_per_cell,0.0,ct,132,172858
+Companion cells,rep2,Control,pct_reads,0.0469,ct,132,172858
+Companion cells,rep2,Control,total,40480.0,cr,132,172858
+Companion cells,rep2,Control,median_gene,0.0,cr,132,172858
+Companion cells,rep2,Control,median_gene_per_cell,0.0,cr,132,172858
+Companion cells,rep2,Control,pct_reads,23.4181,cr,132,172858
+Companion cells,rep2,Control,total,41878.0,organelle,132,172858
+Companion cells,rep2,Control,median_gene,1.0,organelle,132,172858
+Companion cells,rep2,Control,median_gene_per_cell,0.0076,organelle,132,172858
+Companion cells,rep2,Control,pct_reads,24.2268,organelle,132,172858
+Companion cells,rep2,Drought,total,14837.0,cp,406,1110347
+Companion cells,rep2,Drought,median_gene,35.5,cp,406,1110347
+Companion cells,rep2,Drought,median_gene_per_cell,0.0874,cp,406,1110347
+Companion cells,rep2,Drought,pct_reads,1.3362,cp,406,1110347
+Companion cells,rep2,Drought,total,1377.0,ct,406,1110347
+Companion cells,rep2,Drought,median_gene,0.5,ct,406,1110347
+Companion cells,rep2,Drought,median_gene_per_cell,0.0012,ct,406,1110347
+Companion cells,rep2,Drought,pct_reads,0.124,ct,406,1110347
+Companion cells,rep2,Drought,total,379739.0,cr,406,1110347
+Companion cells,rep2,Drought,median_gene,5.5,cr,406,1110347
+Companion cells,rep2,Drought,median_gene_per_cell,0.0135,cr,406,1110347
+Companion cells,rep2,Drought,pct_reads,34.2,cr,406,1110347
+Companion cells,rep2,Drought,total,395953.0,organelle,406,1110347
+Companion cells,rep2,Drought,median_gene,11.5,organelle,406,1110347
+Companion cells,rep2,Drought,median_gene_per_cell,0.0283,organelle,406,1110347
+Companion cells,rep2,Drought,pct_reads,35.6603,organelle,406,1110347
+Companion cells,rep2,HD,total,5167.0,cp,381,753331
+Companion cells,rep2,HD,median_gene,13.5,cp,381,753331
+Companion cells,rep2,HD,median_gene_per_cell,0.0354,cp,381,753331
+Companion cells,rep2,HD,pct_reads,0.6859,cp,381,753331
+Companion cells,rep2,HD,total,494.0,ct,381,753331
+Companion cells,rep2,HD,median_gene,0.0,ct,381,753331
+Companion cells,rep2,HD,median_gene_per_cell,0.0,ct,381,753331
+Companion cells,rep2,HD,pct_reads,0.0656,ct,381,753331
+Companion cells,rep2,HD,total,95255.0,cr,381,753331
+Companion cells,rep2,HD,median_gene,0.0,cr,381,753331
+Companion cells,rep2,HD,median_gene_per_cell,0.0,cr,381,753331
+Companion cells,rep2,HD,pct_reads,12.6445,cr,381,753331
+Companion cells,rep2,HD,total,100916.0,organelle,381,753331
+Companion cells,rep2,HD,median_gene,4.0,organelle,381,753331
+Companion cells,rep2,HD,median_gene_per_cell,0.0105,organelle,381,753331
+Companion cells,rep2,HD,pct_reads,13.396,organelle,381,753331
+Companion cells,rep2,Heat,total,1290.0,cp,232,267007
+Companion cells,rep2,Heat,median_gene,3.0,cp,232,267007
+Companion cells,rep2,Heat,median_gene_per_cell,0.0129,cp,232,267007
+Companion cells,rep2,Heat,pct_reads,0.4831,cp,232,267007
+Companion cells,rep2,Heat,total,101.0,ct,232,267007
+Companion cells,rep2,Heat,median_gene,0.0,ct,232,267007
+Companion cells,rep2,Heat,median_gene_per_cell,0.0,ct,232,267007
+Companion cells,rep2,Heat,pct_reads,0.0378,ct,232,267007
+Companion cells,rep2,Heat,total,34004.0,cr,232,267007
+Companion cells,rep2,Heat,median_gene,0.0,cr,232,267007
+Companion cells,rep2,Heat,median_gene_per_cell,0.0,cr,232,267007
+Companion cells,rep2,Heat,pct_reads,12.7352,cr,232,267007
+Companion cells,rep2,Heat,total,35395.0,organelle,232,267007
+Companion cells,rep2,Heat,median_gene,1.0,organelle,232,267007
+Companion cells,rep2,Heat,median_gene_per_cell,0.0043,organelle,232,267007
+Companion cells,rep2,Heat,pct_reads,13.2562,organelle,232,267007
+Companion cells,rep3,Control,total,545.0,cp,100,117548
+Companion cells,rep3,Control,median_gene,2.0,cp,100,117548
+Companion cells,rep3,Control,median_gene_per_cell,0.02,cp,100,117548
+Companion cells,rep3,Control,pct_reads,0.4636,cp,100,117548
+Companion cells,rep3,Control,total,59.0,ct,100,117548
+Companion cells,rep3,Control,median_gene,0.0,ct,100,117548
+Companion cells,rep3,Control,median_gene_per_cell,0.0,ct,100,117548
+Companion cells,rep3,Control,pct_reads,0.0502,ct,100,117548
+Companion cells,rep3,Control,total,85.0,cr,100,117548
+Companion cells,rep3,Control,median_gene,0.0,cr,100,117548
+Companion cells,rep3,Control,median_gene_per_cell,0.0,cr,100,117548
+Companion cells,rep3,Control,pct_reads,0.0723,cr,100,117548
+Companion cells,rep3,Control,total,689.0,organelle,100,117548
+Companion cells,rep3,Control,median_gene,0.5,organelle,100,117548
+Companion cells,rep3,Control,median_gene_per_cell,0.005,organelle,100,117548
+Companion cells,rep3,Control,pct_reads,0.5861,organelle,100,117548
+Companion cells,rep3,Drought,total,239.0,cp,55,65482
+Companion cells,rep3,Drought,median_gene,1.0,cp,55,65482
+Companion cells,rep3,Drought,median_gene_per_cell,0.0182,cp,55,65482
+Companion cells,rep3,Drought,pct_reads,0.365,cp,55,65482
+Companion cells,rep3,Drought,total,32.0,ct,55,65482
+Companion cells,rep3,Drought,median_gene,0.0,ct,55,65482
+Companion cells,rep3,Drought,median_gene_per_cell,0.0,ct,55,65482
+Companion cells,rep3,Drought,pct_reads,0.0489,ct,55,65482
+Companion cells,rep3,Drought,total,51.0,cr,55,65482
+Companion cells,rep3,Drought,median_gene,0.0,cr,55,65482
+Companion cells,rep3,Drought,median_gene_per_cell,0.0,cr,55,65482
+Companion cells,rep3,Drought,pct_reads,0.0779,cr,55,65482
+Companion cells,rep3,Drought,total,322.0,organelle,55,65482
+Companion cells,rep3,Drought,median_gene,0.0,organelle,55,65482
+Companion cells,rep3,Drought,median_gene_per_cell,0.0,organelle,55,65482
+Companion cells,rep3,Drought,pct_reads,0.4917,organelle,55,65482
+Companion cells,rep3,HD,total,197.0,cp,34,41010
+Companion cells,rep3,HD,median_gene,1.0,cp,34,41010
+Companion cells,rep3,HD,median_gene_per_cell,0.0294,cp,34,41010
+Companion cells,rep3,HD,pct_reads,0.4804,cp,34,41010
+Companion cells,rep3,HD,total,20.0,ct,34,41010
+Companion cells,rep3,HD,median_gene,0.0,ct,34,41010
+Companion cells,rep3,HD,median_gene_per_cell,0.0,ct,34,41010
+Companion cells,rep3,HD,pct_reads,0.0488,ct,34,41010
+Companion cells,rep3,HD,total,34.0,cr,34,41010
+Companion cells,rep3,HD,median_gene,0.0,cr,34,41010
+Companion cells,rep3,HD,median_gene_per_cell,0.0,cr,34,41010
+Companion cells,rep3,HD,pct_reads,0.0829,cr,34,41010
+Companion cells,rep3,HD,total,251.0,organelle,34,41010
+Companion cells,rep3,HD,median_gene,0.0,organelle,34,41010
+Companion cells,rep3,HD,median_gene_per_cell,0.0,organelle,34,41010
+Companion cells,rep3,HD,pct_reads,0.612,organelle,34,41010
+Companion cells,rep3,Heat,total,703.0,cp,115,142444
+Companion cells,rep3,Heat,median_gene,3.0,cp,115,142444
+Companion cells,rep3,Heat,median_gene_per_cell,0.0261,cp,115,142444
+Companion cells,rep3,Heat,pct_reads,0.4935,cp,115,142444
+Companion cells,rep3,Heat,total,53.0,ct,115,142444
+Companion cells,rep3,Heat,median_gene,0.0,ct,115,142444
+Companion cells,rep3,Heat,median_gene_per_cell,0.0,ct,115,142444
+Companion cells,rep3,Heat,pct_reads,0.0372,ct,115,142444
+Companion cells,rep3,Heat,total,248.0,cr,115,142444
+Companion cells,rep3,Heat,median_gene,0.0,cr,115,142444
+Companion cells,rep3,Heat,median_gene_per_cell,0.0,cr,115,142444
+Companion cells,rep3,Heat,pct_reads,0.1741,cr,115,142444
+Companion cells,rep3,Heat,total,1004.0,organelle,115,142444
+Companion cells,rep3,Heat,median_gene,1.0,organelle,115,142444
+Companion cells,rep3,Heat,median_gene_per_cell,0.0087,organelle,115,142444
+Companion cells,rep3,Heat,pct_reads,0.7048,organelle,115,142444
+Epidermal,rep1,Control,total,11253.0,cp,603,786652
+Epidermal,rep1,Control,median_gene,54.0,cp,603,786652
+Epidermal,rep1,Control,median_gene_per_cell,0.0896,cp,603,786652
+Epidermal,rep1,Control,pct_reads,1.4305,cp,603,786652
+Epidermal,rep1,Control,total,1264.0,ct,603,786652
+Epidermal,rep1,Control,median_gene,0.0,ct,603,786652
+Epidermal,rep1,Control,median_gene_per_cell,0.0,ct,603,786652
+Epidermal,rep1,Control,pct_reads,0.1607,ct,603,786652
+Epidermal,rep1,Control,total,146466.0,cr,603,786652
+Epidermal,rep1,Control,median_gene,1.0,cr,603,786652
+Epidermal,rep1,Control,median_gene_per_cell,0.0017,cr,603,786652
+Epidermal,rep1,Control,pct_reads,18.6189,cr,603,786652
+Epidermal,rep1,Control,total,158983.0,organelle,603,786652
+Epidermal,rep1,Control,median_gene,13.5,organelle,603,786652
+Epidermal,rep1,Control,median_gene_per_cell,0.0224,organelle,603,786652
+Epidermal,rep1,Control,pct_reads,20.2101,organelle,603,786652
+Epidermal,rep1,Drought,total,2959.0,cp,118,141124
+Epidermal,rep1,Drought,median_gene,12.0,cp,118,141124
+Epidermal,rep1,Drought,median_gene_per_cell,0.1017,cp,118,141124
+Epidermal,rep1,Drought,pct_reads,2.0967,cp,118,141124
+Epidermal,rep1,Drought,total,328.0,ct,118,141124
+Epidermal,rep1,Drought,median_gene,0.0,ct,118,141124
+Epidermal,rep1,Drought,median_gene_per_cell,0.0,ct,118,141124
+Epidermal,rep1,Drought,pct_reads,0.2324,ct,118,141124
+Epidermal,rep1,Drought,total,45190.0,cr,118,141124
+Epidermal,rep1,Drought,median_gene,2.0,cr,118,141124
+Epidermal,rep1,Drought,median_gene_per_cell,0.0169,cr,118,141124
+Epidermal,rep1,Drought,pct_reads,32.0215,cr,118,141124
+Epidermal,rep1,Drought,total,48477.0,organelle,118,141124
+Epidermal,rep1,Drought,median_gene,3.0,organelle,118,141124
+Epidermal,rep1,Drought,median_gene_per_cell,0.0254,organelle,118,141124
+Epidermal,rep1,Drought,pct_reads,34.3506,organelle,118,141124
+Epidermal,rep1,HD,total,7635.0,cp,497,687465
+Epidermal,rep1,HD,median_gene,30.5,cp,497,687465
+Epidermal,rep1,HD,median_gene_per_cell,0.0614,cp,497,687465
+Epidermal,rep1,HD,pct_reads,1.1106,cp,497,687465
+Epidermal,rep1,HD,total,1250.0,ct,497,687465
+Epidermal,rep1,HD,median_gene,0.0,ct,497,687465
+Epidermal,rep1,HD,median_gene_per_cell,0.0,ct,497,687465
+Epidermal,rep1,HD,pct_reads,0.1818,ct,497,687465
+Epidermal,rep1,HD,total,87317.0,cr,497,687465
+Epidermal,rep1,HD,median_gene,0.0,cr,497,687465
+Epidermal,rep1,HD,median_gene_per_cell,0.0,cr,497,687465
+Epidermal,rep1,HD,pct_reads,12.7013,cr,497,687465
+Epidermal,rep1,HD,total,96202.0,organelle,497,687465
+Epidermal,rep1,HD,median_gene,7.0,organelle,497,687465
+Epidermal,rep1,HD,median_gene_per_cell,0.0141,organelle,497,687465
+Epidermal,rep1,HD,pct_reads,13.9937,organelle,497,687465
+Epidermal,rep1,Heat,total,1173.0,cp,99,90734
+Epidermal,rep1,Heat,median_gene,4.5,cp,99,90734
+Epidermal,rep1,Heat,median_gene_per_cell,0.0455,cp,99,90734
+Epidermal,rep1,Heat,pct_reads,1.2928,cp,99,90734
+Epidermal,rep1,Heat,total,99.0,ct,99,90734
+Epidermal,rep1,Heat,median_gene,0.0,ct,99,90734
+Epidermal,rep1,Heat,median_gene_per_cell,0.0,ct,99,90734
+Epidermal,rep1,Heat,pct_reads,0.1091,ct,99,90734
+Epidermal,rep1,Heat,total,15570.0,cr,99,90734
+Epidermal,rep1,Heat,median_gene,0.0,cr,99,90734
+Epidermal,rep1,Heat,median_gene_per_cell,0.0,cr,99,90734
+Epidermal,rep1,Heat,pct_reads,17.1601,cr,99,90734
+Epidermal,rep1,Heat,total,16842.0,organelle,99,90734
+Epidermal,rep1,Heat,median_gene,1.0,organelle,99,90734
+Epidermal,rep1,Heat,median_gene_per_cell,0.0101,organelle,99,90734
+Epidermal,rep1,Heat,pct_reads,18.562,organelle,99,90734
+Epidermal,rep1A,Control,total,7282.0,cp,309,372036
+Epidermal,rep1A,Control,median_gene,31.0,cp,309,372036
+Epidermal,rep1A,Control,median_gene_per_cell,0.1003,cp,309,372036
+Epidermal,rep1A,Control,pct_reads,1.9573,cp,309,372036
+Epidermal,rep1A,Control,total,644.0,ct,309,372036
+Epidermal,rep1A,Control,median_gene,0.0,ct,309,372036
+Epidermal,rep1A,Control,median_gene_per_cell,0.0,ct,309,372036
+Epidermal,rep1A,Control,pct_reads,0.1731,ct,309,372036
+Epidermal,rep1A,Control,total,71475.0,cr,309,372036
+Epidermal,rep1A,Control,median_gene,1.0,cr,309,372036
+Epidermal,rep1A,Control,median_gene_per_cell,0.0032,cr,309,372036
+Epidermal,rep1A,Control,pct_reads,19.2119,cr,309,372036
+Epidermal,rep1A,Control,total,79401.0,organelle,309,372036
+Epidermal,rep1A,Control,median_gene,5.0,organelle,309,372036
+Epidermal,rep1A,Control,median_gene_per_cell,0.0162,organelle,309,372036
+Epidermal,rep1A,Control,pct_reads,21.3423,organelle,309,372036
+Epidermal,rep2,Control,total,612.0,cp,51,63284
+Epidermal,rep2,Control,median_gene,1.5,cp,51,63284
+Epidermal,rep2,Control,median_gene_per_cell,0.0294,cp,51,63284
+Epidermal,rep2,Control,pct_reads,0.9671,cp,51,63284
+Epidermal,rep2,Control,total,38.0,ct,51,63284
+Epidermal,rep2,Control,median_gene,0.0,ct,51,63284
+Epidermal,rep2,Control,median_gene_per_cell,0.0,ct,51,63284
+Epidermal,rep2,Control,pct_reads,0.06,ct,51,63284
+Epidermal,rep2,Control,total,20296.0,cr,51,63284
+Epidermal,rep2,Control,median_gene,0.0,cr,51,63284
+Epidermal,rep2,Control,median_gene_per_cell,0.0,cr,51,63284
+Epidermal,rep2,Control,pct_reads,32.0713,cr,51,63284
+Epidermal,rep2,Control,total,20946.0,organelle,51,63284
+Epidermal,rep2,Control,median_gene,0.0,organelle,51,63284
+Epidermal,rep2,Control,median_gene_per_cell,0.0,organelle,51,63284
+Epidermal,rep2,Control,pct_reads,33.0984,organelle,51,63284
+Epidermal,rep2,Drought,total,16244.0,cp,407,956040
+Epidermal,rep2,Drought,median_gene,39.5,cp,407,956040
+Epidermal,rep2,Drought,median_gene_per_cell,0.0971,cp,407,956040
+Epidermal,rep2,Drought,pct_reads,1.6991,cp,407,956040
+Epidermal,rep2,Drought,total,1520.0,ct,407,956040
+Epidermal,rep2,Drought,median_gene,0.5,ct,407,956040
+Epidermal,rep2,Drought,median_gene_per_cell,0.0012,ct,407,956040
+Epidermal,rep2,Drought,pct_reads,0.159,ct,407,956040
+Epidermal,rep2,Drought,total,391256.0,cr,407,956040
+Epidermal,rep2,Drought,median_gene,6.0,cr,407,956040
+Epidermal,rep2,Drought,median_gene_per_cell,0.0147,cr,407,956040
+Epidermal,rep2,Drought,pct_reads,40.9246,cr,407,956040
+Epidermal,rep2,Drought,total,409020.0,organelle,407,956040
+Epidermal,rep2,Drought,median_gene,11.0,organelle,407,956040
+Epidermal,rep2,Drought,median_gene_per_cell,0.027,organelle,407,956040
+Epidermal,rep2,Drought,pct_reads,42.7827,organelle,407,956040
+Epidermal,rep2,HD,total,3883.0,cp,238,504160
+Epidermal,rep2,HD,median_gene,10.0,cp,238,504160
+Epidermal,rep2,HD,median_gene_per_cell,0.042,cp,238,504160
+Epidermal,rep2,HD,pct_reads,0.7702,cp,238,504160
+Epidermal,rep2,HD,total,376.0,ct,238,504160
+Epidermal,rep2,HD,median_gene,0.0,ct,238,504160
+Epidermal,rep2,HD,median_gene_per_cell,0.0,ct,238,504160
+Epidermal,rep2,HD,pct_reads,0.0746,ct,238,504160
+Epidermal,rep2,HD,total,72035.0,cr,238,504160
+Epidermal,rep2,HD,median_gene,0.5,cr,238,504160
+Epidermal,rep2,HD,median_gene_per_cell,0.0021,cr,238,504160
+Epidermal,rep2,HD,pct_reads,14.2881,cr,238,504160
+Epidermal,rep2,HD,total,76294.0,organelle,238,504160
+Epidermal,rep2,HD,median_gene,3.0,organelle,238,504160
+Epidermal,rep2,HD,median_gene_per_cell,0.0126,organelle,238,504160
+Epidermal,rep2,HD,pct_reads,15.1329,organelle,238,504160
+Epidermal,rep2,Heat,total,661.0,cp,114,116273
+Epidermal,rep2,Heat,median_gene,2.0,cp,114,116273
+Epidermal,rep2,Heat,median_gene_per_cell,0.0175,cp,114,116273
+Epidermal,rep2,Heat,pct_reads,0.5685,cp,114,116273
+Epidermal,rep2,Heat,total,67.0,ct,114,116273
+Epidermal,rep2,Heat,median_gene,0.0,ct,114,116273
+Epidermal,rep2,Heat,median_gene_per_cell,0.0,ct,114,116273
+Epidermal,rep2,Heat,pct_reads,0.0576,ct,114,116273
+Epidermal,rep2,Heat,total,16796.0,cr,114,116273
+Epidermal,rep2,Heat,median_gene,0.0,cr,114,116273
+Epidermal,rep2,Heat,median_gene_per_cell,0.0,cr,114,116273
+Epidermal,rep2,Heat,pct_reads,14.4453,cr,114,116273
+Epidermal,rep2,Heat,total,17524.0,organelle,114,116273
+Epidermal,rep2,Heat,median_gene,0.0,organelle,114,116273
+Epidermal,rep2,Heat,median_gene_per_cell,0.0,organelle,114,116273
+Epidermal,rep2,Heat,pct_reads,15.0714,organelle,114,116273
+Epidermal,rep3,Control,total,0.0,cp,1,598
+Epidermal,rep3,Control,median_gene,0.0,cp,1,598
+Epidermal,rep3,Control,median_gene_per_cell,0.0,cp,1,598
+Epidermal,rep3,Control,pct_reads,0.0,cp,1,598
+Epidermal,rep3,Control,total,0.0,ct,1,598
+Epidermal,rep3,Control,median_gene,0.0,ct,1,598
+Epidermal,rep3,Control,median_gene_per_cell,0.0,ct,1,598
+Epidermal,rep3,Control,pct_reads,0.0,ct,1,598
+Epidermal,rep3,Control,total,0.0,cr,1,598
+Epidermal,rep3,Control,median_gene,0.0,cr,1,598
+Epidermal,rep3,Control,median_gene_per_cell,0.0,cr,1,598
+Epidermal,rep3,Control,pct_reads,0.0,cr,1,598
+Epidermal,rep3,Control,total,0.0,organelle,1,598
+Epidermal,rep3,Control,median_gene,0.0,organelle,1,598
+Epidermal,rep3,Control,median_gene_per_cell,0.0,organelle,1,598
+Epidermal,rep3,Control,pct_reads,0.0,organelle,1,598
+Epidermal,rep3,Drought,total,58.0,cp,14,11734
+Epidermal,rep3,Drought,median_gene,0.0,cp,14,11734
+Epidermal,rep3,Drought,median_gene_per_cell,0.0,cp,14,11734
+Epidermal,rep3,Drought,pct_reads,0.4943,cp,14,11734
+Epidermal,rep3,Drought,total,8.0,ct,14,11734
+Epidermal,rep3,Drought,median_gene,0.0,ct,14,11734
+Epidermal,rep3,Drought,median_gene_per_cell,0.0,ct,14,11734
+Epidermal,rep3,Drought,pct_reads,0.0682,ct,14,11734
+Epidermal,rep3,Drought,total,17.0,cr,14,11734
+Epidermal,rep3,Drought,median_gene,0.0,cr,14,11734
+Epidermal,rep3,Drought,median_gene_per_cell,0.0,cr,14,11734
+Epidermal,rep3,Drought,pct_reads,0.1449,cr,14,11734
+Epidermal,rep3,Drought,total,83.0,organelle,14,11734
+Epidermal,rep3,Drought,median_gene,0.0,organelle,14,11734
+Epidermal,rep3,Drought,median_gene_per_cell,0.0,organelle,14,11734
+Epidermal,rep3,Drought,pct_reads,0.7073,organelle,14,11734
+Epidermal,rep3,HD,total,2.0,cp,1,849
+Epidermal,rep3,HD,median_gene,0.0,cp,1,849
+Epidermal,rep3,HD,median_gene_per_cell,0.0,cp,1,849
+Epidermal,rep3,HD,pct_reads,0.2356,cp,1,849
+Epidermal,rep3,HD,total,0.0,ct,1,849
+Epidermal,rep3,HD,median_gene,0.0,ct,1,849
+Epidermal,rep3,HD,median_gene_per_cell,0.0,ct,1,849
+Epidermal,rep3,HD,pct_reads,0.0,ct,1,849
+Epidermal,rep3,HD,total,3.0,cr,1,849
+Epidermal,rep3,HD,median_gene,0.0,cr,1,849
+Epidermal,rep3,HD,median_gene_per_cell,0.0,cr,1,849
+Epidermal,rep3,HD,pct_reads,0.3534,cr,1,849
+Epidermal,rep3,HD,total,5.0,organelle,1,849
+Epidermal,rep3,HD,median_gene,0.0,organelle,1,849
+Epidermal,rep3,HD,median_gene_per_cell,0.0,organelle,1,849
+Epidermal,rep3,HD,pct_reads,0.5889,organelle,1,849
+Epidermal,rep3,Heat,total,509.0,cp,113,98293
+Epidermal,rep3,Heat,median_gene,2.0,cp,113,98293
+Epidermal,rep3,Heat,median_gene_per_cell,0.0177,cp,113,98293
+Epidermal,rep3,Heat,pct_reads,0.5178,cp,113,98293
+Epidermal,rep3,Heat,total,61.0,ct,113,98293
+Epidermal,rep3,Heat,median_gene,0.0,ct,113,98293
+Epidermal,rep3,Heat,median_gene_per_cell,0.0,ct,113,98293
+Epidermal,rep3,Heat,pct_reads,0.0621,ct,113,98293
+Epidermal,rep3,Heat,total,261.0,cr,113,98293
+Epidermal,rep3,Heat,median_gene,0.0,cr,113,98293
+Epidermal,rep3,Heat,median_gene_per_cell,0.0,cr,113,98293
+Epidermal,rep3,Heat,pct_reads,0.2655,cr,113,98293
+Epidermal,rep3,Heat,total,831.0,organelle,113,98293
+Epidermal,rep3,Heat,median_gene,0.0,organelle,113,98293
+Epidermal,rep3,Heat,median_gene_per_cell,0.0,organelle,113,98293
+Epidermal,rep3,Heat,pct_reads,0.8454,organelle,113,98293
+Epidermal/Pavement,rep1,Control,total,33.0,cp,4,3592
+Epidermal/Pavement,rep1,Control,median_gene,0.0,cp,4,3592
+Epidermal/Pavement,rep1,Control,median_gene_per_cell,0.0,cp,4,3592
+Epidermal/Pavement,rep1,Control,pct_reads,0.9187,cp,4,3592
+Epidermal/Pavement,rep1,Control,total,4.0,ct,4,3592
+Epidermal/Pavement,rep1,Control,median_gene,0.0,ct,4,3592
+Epidermal/Pavement,rep1,Control,median_gene_per_cell,0.0,ct,4,3592
+Epidermal/Pavement,rep1,Control,pct_reads,0.1114,ct,4,3592
+Epidermal/Pavement,rep1,Control,total,610.0,cr,4,3592
+Epidermal/Pavement,rep1,Control,median_gene,0.0,cr,4,3592
+Epidermal/Pavement,rep1,Control,median_gene_per_cell,0.0,cr,4,3592
+Epidermal/Pavement,rep1,Control,pct_reads,16.9822,cr,4,3592
+Epidermal/Pavement,rep1,Control,total,647.0,organelle,4,3592
+Epidermal/Pavement,rep1,Control,median_gene,0.0,organelle,4,3592
+Epidermal/Pavement,rep1,Control,median_gene_per_cell,0.0,organelle,4,3592
+Epidermal/Pavement,rep1,Control,pct_reads,18.0122,organelle,4,3592
+Epidermal/Pavement,rep1,Drought,total,371.0,cp,19,20882
+Epidermal/Pavement,rep1,Drought,median_gene,1.0,cp,19,20882
+Epidermal/Pavement,rep1,Drought,median_gene_per_cell,0.0526,cp,19,20882
+Epidermal/Pavement,rep1,Drought,pct_reads,1.7766,cp,19,20882
+Epidermal/Pavement,rep1,Drought,total,50.0,ct,19,20882
+Epidermal/Pavement,rep1,Drought,median_gene,0.0,ct,19,20882
+Epidermal/Pavement,rep1,Drought,median_gene_per_cell,0.0,ct,19,20882
+Epidermal/Pavement,rep1,Drought,pct_reads,0.2394,ct,19,20882
+Epidermal/Pavement,rep1,Drought,total,5708.0,cr,19,20882
+Epidermal/Pavement,rep1,Drought,median_gene,0.0,cr,19,20882
+Epidermal/Pavement,rep1,Drought,median_gene_per_cell,0.0,cr,19,20882
+Epidermal/Pavement,rep1,Drought,pct_reads,27.3345,cr,19,20882
+Epidermal/Pavement,rep1,Drought,total,6129.0,organelle,19,20882
+Epidermal/Pavement,rep1,Drought,median_gene,0.0,organelle,19,20882
+Epidermal/Pavement,rep1,Drought,median_gene_per_cell,0.0,organelle,19,20882
+Epidermal/Pavement,rep1,Drought,pct_reads,29.3506,organelle,19,20882
+Epidermal/Pavement,rep1,Heat,total,20.0,cp,2,1645
+Epidermal/Pavement,rep1,Heat,median_gene,0.0,cp,2,1645
+Epidermal/Pavement,rep1,Heat,median_gene_per_cell,0.0,cp,2,1645
+Epidermal/Pavement,rep1,Heat,pct_reads,1.2158,cp,2,1645
+Epidermal/Pavement,rep1,Heat,total,1.0,ct,2,1645
+Epidermal/Pavement,rep1,Heat,median_gene,0.0,ct,2,1645
+Epidermal/Pavement,rep1,Heat,median_gene_per_cell,0.0,ct,2,1645
+Epidermal/Pavement,rep1,Heat,pct_reads,0.0608,ct,2,1645
+Epidermal/Pavement,rep1,Heat,total,342.0,cr,2,1645
+Epidermal/Pavement,rep1,Heat,median_gene,0.0,cr,2,1645
+Epidermal/Pavement,rep1,Heat,median_gene_per_cell,0.0,cr,2,1645
+Epidermal/Pavement,rep1,Heat,pct_reads,20.7903,cr,2,1645
+Epidermal/Pavement,rep1,Heat,total,363.0,organelle,2,1645
+Epidermal/Pavement,rep1,Heat,median_gene,0.0,organelle,2,1645
+Epidermal/Pavement,rep1,Heat,median_gene_per_cell,0.0,organelle,2,1645
+Epidermal/Pavement,rep1,Heat,pct_reads,22.0669,organelle,2,1645
+Epidermal/Pavement,rep1A,Control,total,3411.0,cp,135,170829
+Epidermal/Pavement,rep1A,Control,median_gene,16.0,cp,135,170829
+Epidermal/Pavement,rep1A,Control,median_gene_per_cell,0.1185,cp,135,170829
+Epidermal/Pavement,rep1A,Control,pct_reads,1.9967,cp,135,170829
+Epidermal/Pavement,rep1A,Control,total,312.0,ct,135,170829
+Epidermal/Pavement,rep1A,Control,median_gene,0.0,ct,135,170829
+Epidermal/Pavement,rep1A,Control,median_gene_per_cell,0.0,ct,135,170829
+Epidermal/Pavement,rep1A,Control,pct_reads,0.1826,ct,135,170829
+Epidermal/Pavement,rep1A,Control,total,32302.0,cr,135,170829
+Epidermal/Pavement,rep1A,Control,median_gene,0.5,cr,135,170829
+Epidermal/Pavement,rep1A,Control,median_gene_per_cell,0.0037,cr,135,170829
+Epidermal/Pavement,rep1A,Control,pct_reads,18.909,cr,135,170829
+Epidermal/Pavement,rep1A,Control,total,36025.0,organelle,135,170829
+Epidermal/Pavement,rep1A,Control,median_gene,1.5,organelle,135,170829
+Epidermal/Pavement,rep1A,Control,median_gene_per_cell,0.0111,organelle,135,170829
+Epidermal/Pavement,rep1A,Control,pct_reads,21.0883,organelle,135,170829
+Epidermal/Pavement,rep3,Control,total,1679.0,cp,277,249732
+Epidermal/Pavement,rep3,Control,median_gene,8.5,cp,277,249732
+Epidermal/Pavement,rep3,Control,median_gene_per_cell,0.0307,cp,277,249732
+Epidermal/Pavement,rep3,Control,pct_reads,0.6723,cp,277,249732
+Epidermal/Pavement,rep3,Control,total,210.0,ct,277,249732
+Epidermal/Pavement,rep3,Control,median_gene,0.0,ct,277,249732
+Epidermal/Pavement,rep3,Control,median_gene_per_cell,0.0,ct,277,249732
+Epidermal/Pavement,rep3,Control,pct_reads,0.0841,ct,277,249732
+Epidermal/Pavement,rep3,Control,total,290.0,cr,277,249732
+Epidermal/Pavement,rep3,Control,median_gene,0.0,cr,277,249732
+Epidermal/Pavement,rep3,Control,median_gene_per_cell,0.0,cr,277,249732
+Epidermal/Pavement,rep3,Control,pct_reads,0.1161,cr,277,249732
+Epidermal/Pavement,rep3,Control,total,2179.0,organelle,277,249732
+Epidermal/Pavement,rep3,Control,median_gene,2.0,organelle,277,249732
+Epidermal/Pavement,rep3,Control,median_gene_per_cell,0.0072,organelle,277,249732
+Epidermal/Pavement,rep3,Control,pct_reads,0.8725,organelle,277,249732
+Epidermal/Pavement,rep3,Drought,total,522.0,cp,87,76528
+Epidermal/Pavement,rep3,Drought,median_gene,2.0,cp,87,76528
+Epidermal/Pavement,rep3,Drought,median_gene_per_cell,0.023,cp,87,76528
+Epidermal/Pavement,rep3,Drought,pct_reads,0.6821,cp,87,76528
+Epidermal/Pavement,rep3,Drought,total,69.0,ct,87,76528
+Epidermal/Pavement,rep3,Drought,median_gene,0.0,ct,87,76528
+Epidermal/Pavement,rep3,Drought,median_gene_per_cell,0.0,ct,87,76528
+Epidermal/Pavement,rep3,Drought,pct_reads,0.0902,ct,87,76528
+Epidermal/Pavement,rep3,Drought,total,97.0,cr,87,76528
+Epidermal/Pavement,rep3,Drought,median_gene,0.0,cr,87,76528
+Epidermal/Pavement,rep3,Drought,median_gene_per_cell,0.0,cr,87,76528
+Epidermal/Pavement,rep3,Drought,pct_reads,0.1268,cr,87,76528
+Epidermal/Pavement,rep3,Drought,total,688.0,organelle,87,76528
+Epidermal/Pavement,rep3,Drought,median_gene,1.0,organelle,87,76528
+Epidermal/Pavement,rep3,Drought,median_gene_per_cell,0.0115,organelle,87,76528
+Epidermal/Pavement,rep3,Drought,pct_reads,0.899,organelle,87,76528
+Epidermal/Pavement,rep3,HD,total,375.0,cp,51,52009
+Epidermal/Pavement,rep3,HD,median_gene,1.0,cp,51,52009
+Epidermal/Pavement,rep3,HD,median_gene_per_cell,0.0196,cp,51,52009
+Epidermal/Pavement,rep3,HD,pct_reads,0.721,cp,51,52009
+Epidermal/Pavement,rep3,HD,total,48.0,ct,51,52009
+Epidermal/Pavement,rep3,HD,median_gene,0.0,ct,51,52009
+Epidermal/Pavement,rep3,HD,median_gene_per_cell,0.0,ct,51,52009
+Epidermal/Pavement,rep3,HD,pct_reads,0.0923,ct,51,52009
+Epidermal/Pavement,rep3,HD,total,96.0,cr,51,52009
+Epidermal/Pavement,rep3,HD,median_gene,0.0,cr,51,52009
+Epidermal/Pavement,rep3,HD,median_gene_per_cell,0.0,cr,51,52009
+Epidermal/Pavement,rep3,HD,pct_reads,0.1846,cr,51,52009
+Epidermal/Pavement,rep3,HD,total,519.0,organelle,51,52009
+Epidermal/Pavement,rep3,HD,median_gene,0.0,organelle,51,52009
+Epidermal/Pavement,rep3,HD,median_gene_per_cell,0.0,organelle,51,52009
+Epidermal/Pavement,rep3,HD,pct_reads,0.9979,organelle,51,52009
+Epidermal/Pavement,rep3,Heat,total,953.0,cp,167,153540
+Epidermal/Pavement,rep3,Heat,median_gene,4.0,cp,167,153540
+Epidermal/Pavement,rep3,Heat,median_gene_per_cell,0.024,cp,167,153540
+Epidermal/Pavement,rep3,Heat,pct_reads,0.6207,cp,167,153540
+Epidermal/Pavement,rep3,Heat,total,97.0,ct,167,153540
+Epidermal/Pavement,rep3,Heat,median_gene,0.0,ct,167,153540
+Epidermal/Pavement,rep3,Heat,median_gene_per_cell,0.0,ct,167,153540
+Epidermal/Pavement,rep3,Heat,pct_reads,0.0632,ct,167,153540
+Epidermal/Pavement,rep3,Heat,total,455.0,cr,167,153540
+Epidermal/Pavement,rep3,Heat,median_gene,0.0,cr,167,153540
+Epidermal/Pavement,rep3,Heat,median_gene_per_cell,0.0,cr,167,153540
+Epidermal/Pavement,rep3,Heat,pct_reads,0.2963,cr,167,153540
+Epidermal/Pavement,rep3,Heat,total,1505.0,organelle,167,153540
+Epidermal/Pavement,rep3,Heat,median_gene,1.0,organelle,167,153540
+Epidermal/Pavement,rep3,Heat,median_gene_per_cell,0.006,organelle,167,153540
+Epidermal/Pavement,rep3,Heat,pct_reads,0.9802,organelle,167,153540
+Guard cells,rep1,Control,total,2498.0,cp,95,166571
+Guard cells,rep1,Control,median_gene,10.0,cp,95,166571
+Guard cells,rep1,Control,median_gene_per_cell,0.1053,cp,95,166571
+Guard cells,rep1,Control,pct_reads,1.4997,cp,95,166571
+Guard cells,rep1,Control,total,284.0,ct,95,166571
+Guard cells,rep1,Control,median_gene,0.0,ct,95,166571
+Guard cells,rep1,Control,median_gene_per_cell,0.0,ct,95,166571
+Guard cells,rep1,Control,pct_reads,0.1705,ct,95,166571
+Guard cells,rep1,Control,total,27455.0,cr,95,166571
+Guard cells,rep1,Control,median_gene,0.0,cr,95,166571
+Guard cells,rep1,Control,median_gene_per_cell,0.0,cr,95,166571
+Guard cells,rep1,Control,pct_reads,16.4825,cr,95,166571
+Guard cells,rep1,Control,total,30237.0,organelle,95,166571
+Guard cells,rep1,Control,median_gene,3.0,organelle,95,166571
+Guard cells,rep1,Control,median_gene_per_cell,0.0316,organelle,95,166571
+Guard cells,rep1,Control,pct_reads,18.1526,organelle,95,166571
+Guard cells,rep1,Drought,total,332.0,cp,12,16177
+Guard cells,rep1,Drought,median_gene,1.0,cp,12,16177
+Guard cells,rep1,Drought,median_gene_per_cell,0.0833,cp,12,16177
+Guard cells,rep1,Drought,pct_reads,2.0523,cp,12,16177
+Guard cells,rep1,Drought,total,32.0,ct,12,16177
+Guard cells,rep1,Drought,median_gene,0.0,ct,12,16177
+Guard cells,rep1,Drought,median_gene_per_cell,0.0,ct,12,16177
+Guard cells,rep1,Drought,pct_reads,0.1978,ct,12,16177
+Guard cells,rep1,Drought,total,4094.0,cr,12,16177
+Guard cells,rep1,Drought,median_gene,0.0,cr,12,16177
+Guard cells,rep1,Drought,median_gene_per_cell,0.0,cr,12,16177
+Guard cells,rep1,Drought,pct_reads,25.3075,cr,12,16177
+Guard cells,rep1,Drought,total,4458.0,organelle,12,16177
+Guard cells,rep1,Drought,median_gene,0.0,organelle,12,16177
+Guard cells,rep1,Drought,median_gene_per_cell,0.0,organelle,12,16177
+Guard cells,rep1,Drought,pct_reads,27.5576,organelle,12,16177
+Guard cells,rep1,HD,total,544.0,cp,34,43219
+Guard cells,rep1,HD,median_gene,2.0,cp,34,43219
+Guard cells,rep1,HD,median_gene_per_cell,0.0588,cp,34,43219
+Guard cells,rep1,HD,pct_reads,1.2587,cp,34,43219
+Guard cells,rep1,HD,total,93.0,ct,34,43219
+Guard cells,rep1,HD,median_gene,0.0,ct,34,43219
+Guard cells,rep1,HD,median_gene_per_cell,0.0,ct,34,43219
+Guard cells,rep1,HD,pct_reads,0.2152,ct,34,43219
+Guard cells,rep1,HD,total,5711.0,cr,34,43219
+Guard cells,rep1,HD,median_gene,0.0,cr,34,43219
+Guard cells,rep1,HD,median_gene_per_cell,0.0,cr,34,43219
+Guard cells,rep1,HD,pct_reads,13.2141,cr,34,43219
+Guard cells,rep1,HD,total,6348.0,organelle,34,43219
+Guard cells,rep1,HD,median_gene,0.0,organelle,34,43219
+Guard cells,rep1,HD,median_gene_per_cell,0.0,organelle,34,43219
+Guard cells,rep1,HD,pct_reads,14.688,organelle,34,43219
+Guard cells,rep1,Heat,total,376.0,cp,28,25939
+Guard cells,rep1,Heat,median_gene,2.0,cp,28,25939
+Guard cells,rep1,Heat,median_gene_per_cell,0.0714,cp,28,25939
+Guard cells,rep1,Heat,pct_reads,1.4496,cp,28,25939
+Guard cells,rep1,Heat,total,23.0,ct,28,25939
+Guard cells,rep1,Heat,median_gene,0.0,ct,28,25939
+Guard cells,rep1,Heat,median_gene_per_cell,0.0,ct,28,25939
+Guard cells,rep1,Heat,pct_reads,0.0887,ct,28,25939
+Guard cells,rep1,Heat,total,4386.0,cr,28,25939
+Guard cells,rep1,Heat,median_gene,0.0,cr,28,25939
+Guard cells,rep1,Heat,median_gene_per_cell,0.0,cr,28,25939
+Guard cells,rep1,Heat,pct_reads,16.9089,cr,28,25939
+Guard cells,rep1,Heat,total,4785.0,organelle,28,25939
+Guard cells,rep1,Heat,median_gene,0.0,organelle,28,25939
+Guard cells,rep1,Heat,median_gene_per_cell,0.0,organelle,28,25939
+Guard cells,rep1,Heat,pct_reads,18.4471,organelle,28,25939
+Guard cells,rep1A,Control,total,1122.0,cp,41,49879
+Guard cells,rep1A,Control,median_gene,4.0,cp,41,49879
+Guard cells,rep1A,Control,median_gene_per_cell,0.0976,cp,41,49879
+Guard cells,rep1A,Control,pct_reads,2.2494,cp,41,49879
+Guard cells,rep1A,Control,total,84.0,ct,41,49879
+Guard cells,rep1A,Control,median_gene,0.0,ct,41,49879
+Guard cells,rep1A,Control,median_gene_per_cell,0.0,ct,41,49879
+Guard cells,rep1A,Control,pct_reads,0.1684,ct,41,49879
+Guard cells,rep1A,Control,total,9439.0,cr,41,49879
+Guard cells,rep1A,Control,median_gene,0.0,cr,41,49879
+Guard cells,rep1A,Control,median_gene_per_cell,0.0,cr,41,49879
+Guard cells,rep1A,Control,pct_reads,18.9238,cr,41,49879
+Guard cells,rep1A,Control,total,10645.0,organelle,41,49879
+Guard cells,rep1A,Control,median_gene,1.0,organelle,41,49879
+Guard cells,rep1A,Control,median_gene_per_cell,0.0244,organelle,41,49879
+Guard cells,rep1A,Control,pct_reads,21.3416,organelle,41,49879
+Guard cells,rep2,Control,total,350.0,cp,35,46266
+Guard cells,rep2,Control,median_gene,1.0,cp,35,46266
+Guard cells,rep2,Control,median_gene_per_cell,0.0286,cp,35,46266
+Guard cells,rep2,Control,pct_reads,0.7565,cp,35,46266
+Guard cells,rep2,Control,total,20.0,ct,35,46266
+Guard cells,rep2,Control,median_gene,0.0,ct,35,46266
+Guard cells,rep2,Control,median_gene_per_cell,0.0,ct,35,46266
+Guard cells,rep2,Control,pct_reads,0.0432,ct,35,46266
+Guard cells,rep2,Control,total,10821.0,cr,35,46266
+Guard cells,rep2,Control,median_gene,0.0,cr,35,46266
+Guard cells,rep2,Control,median_gene_per_cell,0.0,cr,35,46266
+Guard cells,rep2,Control,pct_reads,23.3887,cr,35,46266
+Guard cells,rep2,Control,total,11191.0,organelle,35,46266
+Guard cells,rep2,Control,median_gene,0.0,organelle,35,46266
+Guard cells,rep2,Control,median_gene_per_cell,0.0,organelle,35,46266
+Guard cells,rep2,Control,pct_reads,24.1884,organelle,35,46266
+Guard cells,rep2,Drought,total,3537.0,cp,85,247683
+Guard cells,rep2,Drought,median_gene,9.0,cp,85,247683
+Guard cells,rep2,Drought,median_gene_per_cell,0.1059,cp,85,247683
+Guard cells,rep2,Drought,pct_reads,1.428,cp,85,247683
+Guard cells,rep2,Drought,total,339.0,ct,85,247683
+Guard cells,rep2,Drought,median_gene,0.0,ct,85,247683
+Guard cells,rep2,Drought,median_gene_per_cell,0.0,ct,85,247683
+Guard cells,rep2,Drought,pct_reads,0.1369,ct,85,247683
+Guard cells,rep2,Drought,total,92682.0,cr,85,247683
+Guard cells,rep2,Drought,median_gene,0.5,cr,85,247683
+Guard cells,rep2,Drought,median_gene_per_cell,0.0059,cr,85,247683
+Guard cells,rep2,Drought,pct_reads,37.4196,cr,85,247683
+Guard cells,rep2,Drought,total,96558.0,organelle,85,247683
+Guard cells,rep2,Drought,median_gene,2.0,organelle,85,247683
+Guard cells,rep2,Drought,median_gene_per_cell,0.0235,organelle,85,247683
+Guard cells,rep2,Drought,pct_reads,38.9845,organelle,85,247683
+Guard cells,rep2,HD,total,1172.0,cp,69,165989
+Guard cells,rep2,HD,median_gene,3.0,cp,69,165989
+Guard cells,rep2,HD,median_gene_per_cell,0.0435,cp,69,165989
+Guard cells,rep2,HD,pct_reads,0.7061,cp,69,165989
+Guard cells,rep2,HD,total,133.0,ct,69,165989
+Guard cells,rep2,HD,median_gene,0.0,ct,69,165989
+Guard cells,rep2,HD,median_gene_per_cell,0.0,ct,69,165989
+Guard cells,rep2,HD,pct_reads,0.0801,ct,69,165989
+Guard cells,rep2,HD,total,22724.0,cr,69,165989
+Guard cells,rep2,HD,median_gene,0.0,cr,69,165989
+Guard cells,rep2,HD,median_gene_per_cell,0.0,cr,69,165989
+Guard cells,rep2,HD,pct_reads,13.6901,cr,69,165989
+Guard cells,rep2,HD,total,24029.0,organelle,69,165989
+Guard cells,rep2,HD,median_gene,1.0,organelle,69,165989
+Guard cells,rep2,HD,median_gene_per_cell,0.0145,organelle,69,165989
+Guard cells,rep2,HD,pct_reads,14.4763,organelle,69,165989
+Guard cells,rep2,Heat,total,432.0,cp,80,89844
+Guard cells,rep2,Heat,median_gene,1.0,cp,80,89844
+Guard cells,rep2,Heat,median_gene_per_cell,0.0125,cp,80,89844
+Guard cells,rep2,Heat,pct_reads,0.4808,cp,80,89844
+Guard cells,rep2,Heat,total,44.0,ct,80,89844
+Guard cells,rep2,Heat,median_gene,0.0,ct,80,89844
+Guard cells,rep2,Heat,median_gene_per_cell,0.0,ct,80,89844
+Guard cells,rep2,Heat,pct_reads,0.049,ct,80,89844
+Guard cells,rep2,Heat,total,11951.0,cr,80,89844
+Guard cells,rep2,Heat,median_gene,0.0,cr,80,89844
+Guard cells,rep2,Heat,median_gene_per_cell,0.0,cr,80,89844
+Guard cells,rep2,Heat,pct_reads,13.3019,cr,80,89844
+Guard cells,rep2,Heat,total,12427.0,organelle,80,89844
+Guard cells,rep2,Heat,median_gene,0.0,organelle,80,89844
+Guard cells,rep2,Heat,median_gene_per_cell,0.0,organelle,80,89844
+Guard cells,rep2,Heat,pct_reads,13.8318,organelle,80,89844
+Guard cells,rep3,Control,total,217.0,cp,30,26573
+Guard cells,rep3,Control,median_gene,1.0,cp,30,26573
+Guard cells,rep3,Control,median_gene_per_cell,0.0333,cp,30,26573
+Guard cells,rep3,Control,pct_reads,0.8166,cp,30,26573
+Guard cells,rep3,Control,total,19.0,ct,30,26573
+Guard cells,rep3,Control,median_gene,0.0,ct,30,26573
+Guard cells,rep3,Control,median_gene_per_cell,0.0,ct,30,26573
+Guard cells,rep3,Control,pct_reads,0.0715,ct,30,26573
+Guard cells,rep3,Control,total,26.0,cr,30,26573
+Guard cells,rep3,Control,median_gene,0.0,cr,30,26573
+Guard cells,rep3,Control,median_gene_per_cell,0.0,cr,30,26573
+Guard cells,rep3,Control,pct_reads,0.0978,cr,30,26573
+Guard cells,rep3,Control,total,262.0,organelle,30,26573
+Guard cells,rep3,Control,median_gene,0.0,organelle,30,26573
+Guard cells,rep3,Control,median_gene_per_cell,0.0,organelle,30,26573
+Guard cells,rep3,Control,pct_reads,0.986,organelle,30,26573
+Guard cells,rep3,Drought,total,67.0,cp,14,13253
+Guard cells,rep3,Drought,median_gene,0.0,cp,14,13253
+Guard cells,rep3,Drought,median_gene_per_cell,0.0,cp,14,13253
+Guard cells,rep3,Drought,pct_reads,0.5055,cp,14,13253
+Guard cells,rep3,Drought,total,4.0,ct,14,13253
+Guard cells,rep3,Drought,median_gene,0.0,ct,14,13253
+Guard cells,rep3,Drought,median_gene_per_cell,0.0,ct,14,13253
+Guard cells,rep3,Drought,pct_reads,0.0302,ct,14,13253
+Guard cells,rep3,Drought,total,16.0,cr,14,13253
+Guard cells,rep3,Drought,median_gene,0.0,cr,14,13253
+Guard cells,rep3,Drought,median_gene_per_cell,0.0,cr,14,13253
+Guard cells,rep3,Drought,pct_reads,0.1207,cr,14,13253
+Guard cells,rep3,Drought,total,87.0,organelle,14,13253
+Guard cells,rep3,Drought,median_gene,0.0,organelle,14,13253
+Guard cells,rep3,Drought,median_gene_per_cell,0.0,organelle,14,13253
+Guard cells,rep3,Drought,pct_reads,0.6565,organelle,14,13253
+Guard cells,rep3,HD,total,81.0,cp,13,13888
+Guard cells,rep3,HD,median_gene,0.0,cp,13,13888
+Guard cells,rep3,HD,median_gene_per_cell,0.0,cp,13,13888
+Guard cells,rep3,HD,pct_reads,0.5832,cp,13,13888
+Guard cells,rep3,HD,total,11.0,ct,13,13888
+Guard cells,rep3,HD,median_gene,0.0,ct,13,13888
+Guard cells,rep3,HD,median_gene_per_cell,0.0,ct,13,13888
+Guard cells,rep3,HD,pct_reads,0.0792,ct,13,13888
+Guard cells,rep3,HD,total,21.0,cr,13,13888
+Guard cells,rep3,HD,median_gene,0.0,cr,13,13888
+Guard cells,rep3,HD,median_gene_per_cell,0.0,cr,13,13888
+Guard cells,rep3,HD,pct_reads,0.1512,cr,13,13888
+Guard cells,rep3,HD,total,113.0,organelle,13,13888
+Guard cells,rep3,HD,median_gene,0.0,organelle,13,13888
+Guard cells,rep3,HD,median_gene_per_cell,0.0,organelle,13,13888
+Guard cells,rep3,HD,pct_reads,0.8137,organelle,13,13888
+Guard cells,rep3,Heat,total,162.0,cp,27,26092
+Guard cells,rep3,Heat,median_gene,0.5,cp,27,26092
+Guard cells,rep3,Heat,median_gene_per_cell,0.0185,cp,27,26092
+Guard cells,rep3,Heat,pct_reads,0.6209,cp,27,26092
+Guard cells,rep3,Heat,total,19.0,ct,27,26092
+Guard cells,rep3,Heat,median_gene,0.0,ct,27,26092
+Guard cells,rep3,Heat,median_gene_per_cell,0.0,ct,27,26092
+Guard cells,rep3,Heat,pct_reads,0.0728,ct,27,26092
+Guard cells,rep3,Heat,total,66.0,cr,27,26092
+Guard cells,rep3,Heat,median_gene,0.0,cr,27,26092
+Guard cells,rep3,Heat,median_gene_per_cell,0.0,cr,27,26092
+Guard cells,rep3,Heat,pct_reads,0.253,cr,27,26092
+Guard cells,rep3,Heat,total,247.0,organelle,27,26092
+Guard cells,rep3,Heat,median_gene,0.0,organelle,27,26092
+Guard cells,rep3,Heat,median_gene_per_cell,0.0,organelle,27,26092
+Guard cells,rep3,Heat,pct_reads,0.9467,organelle,27,26092
+Hydathode cells,rep1,Control,total,1622.0,cp,74,129845
+Hydathode cells,rep1,Control,median_gene,7.0,cp,74,129845
+Hydathode cells,rep1,Control,median_gene_per_cell,0.0946,cp,74,129845
+Hydathode cells,rep1,Control,pct_reads,1.2492,cp,74,129845
+Hydathode cells,rep1,Control,total,143.0,ct,74,129845
+Hydathode cells,rep1,Control,median_gene,0.0,ct,74,129845
+Hydathode cells,rep1,Control,median_gene_per_cell,0.0,ct,74,129845
+Hydathode cells,rep1,Control,pct_reads,0.1101,ct,74,129845
+Hydathode cells,rep1,Control,total,20380.0,cr,74,129845
+Hydathode cells,rep1,Control,median_gene,0.0,cr,74,129845
+Hydathode cells,rep1,Control,median_gene_per_cell,0.0,cr,74,129845
+Hydathode cells,rep1,Control,pct_reads,15.6956,cr,74,129845
+Hydathode cells,rep1,Control,total,22145.0,organelle,74,129845
+Hydathode cells,rep1,Control,median_gene,2.0,organelle,74,129845
+Hydathode cells,rep1,Control,median_gene_per_cell,0.027,organelle,74,129845
+Hydathode cells,rep1,Control,pct_reads,17.055,organelle,74,129845
+Hydathode cells,rep1,Drought,total,369.0,cp,24,27123
+Hydathode cells,rep1,Drought,median_gene,1.0,cp,24,27123
+Hydathode cells,rep1,Drought,median_gene_per_cell,0.0417,cp,24,27123
+Hydathode cells,rep1,Drought,pct_reads,1.3605,cp,24,27123
+Hydathode cells,rep1,Drought,total,44.0,ct,24,27123
+Hydathode cells,rep1,Drought,median_gene,0.0,ct,24,27123
+Hydathode cells,rep1,Drought,median_gene_per_cell,0.0,ct,24,27123
+Hydathode cells,rep1,Drought,pct_reads,0.1622,ct,24,27123
+Hydathode cells,rep1,Drought,total,6787.0,cr,24,27123
+Hydathode cells,rep1,Drought,median_gene,0.0,cr,24,27123
+Hydathode cells,rep1,Drought,median_gene_per_cell,0.0,cr,24,27123
+Hydathode cells,rep1,Drought,pct_reads,25.023,cr,24,27123
+Hydathode cells,rep1,Drought,total,7200.0,organelle,24,27123
+Hydathode cells,rep1,Drought,median_gene,0.0,organelle,24,27123
+Hydathode cells,rep1,Drought,median_gene_per_cell,0.0,organelle,24,27123
+Hydathode cells,rep1,Drought,pct_reads,26.5457,organelle,24,27123
+Hydathode cells,rep1,HD,total,410.0,cp,42,56474
+Hydathode cells,rep1,HD,median_gene,2.0,cp,42,56474
+Hydathode cells,rep1,HD,median_gene_per_cell,0.0476,cp,42,56474
+Hydathode cells,rep1,HD,pct_reads,0.726,cp,42,56474
+Hydathode cells,rep1,HD,total,72.0,ct,42,56474
+Hydathode cells,rep1,HD,median_gene,0.0,ct,42,56474
+Hydathode cells,rep1,HD,median_gene_per_cell,0.0,ct,42,56474
+Hydathode cells,rep1,HD,pct_reads,0.1275,ct,42,56474
+Hydathode cells,rep1,HD,total,4243.0,cr,42,56474
+Hydathode cells,rep1,HD,median_gene,0.0,cr,42,56474
+Hydathode cells,rep1,HD,median_gene_per_cell,0.0,cr,42,56474
+Hydathode cells,rep1,HD,pct_reads,7.5132,cr,42,56474
+Hydathode cells,rep1,HD,total,4725.0,organelle,42,56474
+Hydathode cells,rep1,HD,median_gene,0.0,organelle,42,56474
+Hydathode cells,rep1,HD,median_gene_per_cell,0.0,organelle,42,56474
+Hydathode cells,rep1,HD,pct_reads,8.3667,organelle,42,56474
+Hydathode cells,rep1,Heat,total,118.0,cp,15,15349
+Hydathode cells,rep1,Heat,median_gene,0.0,cp,15,15349
+Hydathode cells,rep1,Heat,median_gene_per_cell,0.0,cp,15,15349
+Hydathode cells,rep1,Heat,pct_reads,0.7688,cp,15,15349
+Hydathode cells,rep1,Heat,total,2.0,ct,15,15349
+Hydathode cells,rep1,Heat,median_gene,0.0,ct,15,15349
+Hydathode cells,rep1,Heat,median_gene_per_cell,0.0,ct,15,15349
+Hydathode cells,rep1,Heat,pct_reads,0.013,ct,15,15349
+Hydathode cells,rep1,Heat,total,1643.0,cr,15,15349
+Hydathode cells,rep1,Heat,median_gene,0.0,cr,15,15349
+Hydathode cells,rep1,Heat,median_gene_per_cell,0.0,cr,15,15349
+Hydathode cells,rep1,Heat,pct_reads,10.7043,cr,15,15349
+Hydathode cells,rep1,Heat,total,1763.0,organelle,15,15349
+Hydathode cells,rep1,Heat,median_gene,0.0,organelle,15,15349
+Hydathode cells,rep1,Heat,median_gene_per_cell,0.0,organelle,15,15349
+Hydathode cells,rep1,Heat,pct_reads,11.4861,organelle,15,15349
+Hydathode cells,rep1A,Control,total,819.0,cp,47,58279
+Hydathode cells,rep1A,Control,median_gene,3.0,cp,47,58279
+Hydathode cells,rep1A,Control,median_gene_per_cell,0.0638,cp,47,58279
+Hydathode cells,rep1A,Control,pct_reads,1.4053,cp,47,58279
+Hydathode cells,rep1A,Control,total,64.0,ct,47,58279
+Hydathode cells,rep1A,Control,median_gene,0.0,ct,47,58279
+Hydathode cells,rep1A,Control,median_gene_per_cell,0.0,ct,47,58279
+Hydathode cells,rep1A,Control,pct_reads,0.1098,ct,47,58279
+Hydathode cells,rep1A,Control,total,7488.0,cr,47,58279
+Hydathode cells,rep1A,Control,median_gene,0.0,cr,47,58279
+Hydathode cells,rep1A,Control,median_gene_per_cell,0.0,cr,47,58279
+Hydathode cells,rep1A,Control,pct_reads,12.8485,cr,47,58279
+Hydathode cells,rep1A,Control,total,8371.0,organelle,47,58279
+Hydathode cells,rep1A,Control,median_gene,1.0,organelle,47,58279
+Hydathode cells,rep1A,Control,median_gene_per_cell,0.0213,organelle,47,58279
+Hydathode cells,rep1A,Control,pct_reads,14.3637,organelle,47,58279
+Hydathode cells,rep2,Control,total,284.0,cp,32,42074
+Hydathode cells,rep2,Control,median_gene,0.5,cp,32,42074
+Hydathode cells,rep2,Control,median_gene_per_cell,0.0156,cp,32,42074
+Hydathode cells,rep2,Control,pct_reads,0.675,cp,32,42074
+Hydathode cells,rep2,Control,total,14.0,ct,32,42074
+Hydathode cells,rep2,Control,median_gene,0.0,ct,32,42074
+Hydathode cells,rep2,Control,median_gene_per_cell,0.0,ct,32,42074
+Hydathode cells,rep2,Control,pct_reads,0.0333,ct,32,42074
+Hydathode cells,rep2,Control,total,10550.0,cr,32,42074
+Hydathode cells,rep2,Control,median_gene,0.0,cr,32,42074
+Hydathode cells,rep2,Control,median_gene_per_cell,0.0,cr,32,42074
+Hydathode cells,rep2,Control,pct_reads,25.0749,cr,32,42074
+Hydathode cells,rep2,Control,total,10848.0,organelle,32,42074
+Hydathode cells,rep2,Control,median_gene,0.0,organelle,32,42074
+Hydathode cells,rep2,Control,median_gene_per_cell,0.0,organelle,32,42074
+Hydathode cells,rep2,Control,pct_reads,25.7831,organelle,32,42074
+Hydathode cells,rep2,Drought,total,1662.0,cp,45,119881
+Hydathode cells,rep2,Drought,median_gene,3.0,cp,45,119881
+Hydathode cells,rep2,Drought,median_gene_per_cell,0.0667,cp,45,119881
+Hydathode cells,rep2,Drought,pct_reads,1.3864,cp,45,119881
+Hydathode cells,rep2,Drought,total,169.0,ct,45,119881
+Hydathode cells,rep2,Drought,median_gene,0.0,ct,45,119881
+Hydathode cells,rep2,Drought,median_gene_per_cell,0.0,ct,45,119881
+Hydathode cells,rep2,Drought,pct_reads,0.141,ct,45,119881
+Hydathode cells,rep2,Drought,total,45235.0,cr,45,119881
+Hydathode cells,rep2,Drought,median_gene,0.0,cr,45,119881
+Hydathode cells,rep2,Drought,median_gene_per_cell,0.0,cr,45,119881
+Hydathode cells,rep2,Drought,pct_reads,37.7333,cr,45,119881
+Hydathode cells,rep2,Drought,total,47066.0,organelle,45,119881
+Hydathode cells,rep2,Drought,median_gene,0.5,organelle,45,119881
+Hydathode cells,rep2,Drought,median_gene_per_cell,0.0111,organelle,45,119881
+Hydathode cells,rep2,Drought,pct_reads,39.2606,organelle,45,119881
+Hydathode cells,rep2,HD,total,612.0,cp,50,82694
+Hydathode cells,rep2,HD,median_gene,1.5,cp,50,82694
+Hydathode cells,rep2,HD,median_gene_per_cell,0.03,cp,50,82694
+Hydathode cells,rep2,HD,pct_reads,0.7401,cp,50,82694
+Hydathode cells,rep2,HD,total,36.0,ct,50,82694
+Hydathode cells,rep2,HD,median_gene,0.0,ct,50,82694
+Hydathode cells,rep2,HD,median_gene_per_cell,0.0,ct,50,82694
+Hydathode cells,rep2,HD,pct_reads,0.0435,ct,50,82694
+Hydathode cells,rep2,HD,total,10084.0,cr,50,82694
+Hydathode cells,rep2,HD,median_gene,0.0,cr,50,82694
+Hydathode cells,rep2,HD,median_gene_per_cell,0.0,cr,50,82694
+Hydathode cells,rep2,HD,pct_reads,12.1944,cr,50,82694
+Hydathode cells,rep2,HD,total,10732.0,organelle,50,82694
+Hydathode cells,rep2,HD,median_gene,0.0,organelle,50,82694
+Hydathode cells,rep2,HD,median_gene_per_cell,0.0,organelle,50,82694
+Hydathode cells,rep2,HD,pct_reads,12.978,organelle,50,82694
+Hydathode cells,rep2,Heat,total,319.0,cp,63,71100
+Hydathode cells,rep2,Heat,median_gene,1.0,cp,63,71100
+Hydathode cells,rep2,Heat,median_gene_per_cell,0.0159,cp,63,71100
+Hydathode cells,rep2,Heat,pct_reads,0.4487,cp,63,71100
+Hydathode cells,rep2,Heat,total,28.0,ct,63,71100
+Hydathode cells,rep2,Heat,median_gene,0.0,ct,63,71100
+Hydathode cells,rep2,Heat,median_gene_per_cell,0.0,ct,63,71100
+Hydathode cells,rep2,Heat,pct_reads,0.0394,ct,63,71100
+Hydathode cells,rep2,Heat,total,7751.0,cr,63,71100
+Hydathode cells,rep2,Heat,median_gene,0.0,cr,63,71100
+Hydathode cells,rep2,Heat,median_gene_per_cell,0.0,cr,63,71100
+Hydathode cells,rep2,Heat,pct_reads,10.9015,cr,63,71100
+Hydathode cells,rep2,Heat,total,8098.0,organelle,63,71100
+Hydathode cells,rep2,Heat,median_gene,0.0,organelle,63,71100
+Hydathode cells,rep2,Heat,median_gene_per_cell,0.0,organelle,63,71100
+Hydathode cells,rep2,Heat,pct_reads,11.3896,organelle,63,71100
+Hydathode cells,rep3,Control,total,56.0,cp,9,11253
+Hydathode cells,rep3,Control,median_gene,0.0,cp,9,11253
+Hydathode cells,rep3,Control,median_gene_per_cell,0.0,cp,9,11253
+Hydathode cells,rep3,Control,pct_reads,0.4976,cp,9,11253
+Hydathode cells,rep3,Control,total,9.0,ct,9,11253
+Hydathode cells,rep3,Control,median_gene,0.0,ct,9,11253
+Hydathode cells,rep3,Control,median_gene_per_cell,0.0,ct,9,11253
+Hydathode cells,rep3,Control,pct_reads,0.08,ct,9,11253
+Hydathode cells,rep3,Control,total,9.0,cr,9,11253
+Hydathode cells,rep3,Control,median_gene,0.0,cr,9,11253
+Hydathode cells,rep3,Control,median_gene_per_cell,0.0,cr,9,11253
+Hydathode cells,rep3,Control,pct_reads,0.08,cr,9,11253
+Hydathode cells,rep3,Control,total,74.0,organelle,9,11253
+Hydathode cells,rep3,Control,median_gene,0.0,organelle,9,11253
+Hydathode cells,rep3,Control,median_gene_per_cell,0.0,organelle,9,11253
+Hydathode cells,rep3,Control,pct_reads,0.6576,organelle,9,11253
+Hydathode cells,rep3,Drought,total,20.0,cp,4,4034
+Hydathode cells,rep3,Drought,median_gene,0.0,cp,4,4034
+Hydathode cells,rep3,Drought,median_gene_per_cell,0.0,cp,4,4034
+Hydathode cells,rep3,Drought,pct_reads,0.4958,cp,4,4034
+Hydathode cells,rep3,Drought,total,4.0,ct,4,4034
+Hydathode cells,rep3,Drought,median_gene,0.0,ct,4,4034
+Hydathode cells,rep3,Drought,median_gene_per_cell,0.0,ct,4,4034
+Hydathode cells,rep3,Drought,pct_reads,0.0992,ct,4,4034
+Hydathode cells,rep3,Drought,total,4.0,cr,4,4034
+Hydathode cells,rep3,Drought,median_gene,0.0,cr,4,4034
+Hydathode cells,rep3,Drought,median_gene_per_cell,0.0,cr,4,4034
+Hydathode cells,rep3,Drought,pct_reads,0.0992,cr,4,4034
+Hydathode cells,rep3,Drought,total,28.0,organelle,4,4034
+Hydathode cells,rep3,Drought,median_gene,0.0,organelle,4,4034
+Hydathode cells,rep3,Drought,median_gene_per_cell,0.0,organelle,4,4034
+Hydathode cells,rep3,Drought,pct_reads,0.6941,organelle,4,4034
+Hydathode cells,rep3,HD,total,57.0,cp,7,10647
+Hydathode cells,rep3,HD,median_gene,0.0,cp,7,10647
+Hydathode cells,rep3,HD,median_gene_per_cell,0.0,cp,7,10647
+Hydathode cells,rep3,HD,pct_reads,0.5354,cp,7,10647
+Hydathode cells,rep3,HD,total,15.0,ct,7,10647
+Hydathode cells,rep3,HD,median_gene,0.0,ct,7,10647
+Hydathode cells,rep3,HD,median_gene_per_cell,0.0,ct,7,10647
+Hydathode cells,rep3,HD,pct_reads,0.1409,ct,7,10647
+Hydathode cells,rep3,HD,total,11.0,cr,7,10647
+Hydathode cells,rep3,HD,median_gene,0.0,cr,7,10647
+Hydathode cells,rep3,HD,median_gene_per_cell,0.0,cr,7,10647
+Hydathode cells,rep3,HD,pct_reads,0.1033,cr,7,10647
+Hydathode cells,rep3,HD,total,83.0,organelle,7,10647
+Hydathode cells,rep3,HD,median_gene,0.0,organelle,7,10647
+Hydathode cells,rep3,HD,median_gene_per_cell,0.0,organelle,7,10647
+Hydathode cells,rep3,HD,pct_reads,0.7796,organelle,7,10647
+Hydathode cells,rep3,Heat,total,20.0,cp,9,11360
+Hydathode cells,rep3,Heat,median_gene,0.0,cp,9,11360
+Hydathode cells,rep3,Heat,median_gene_per_cell,0.0,cp,9,11360
+Hydathode cells,rep3,Heat,pct_reads,0.1761,cp,9,11360
+Hydathode cells,rep3,Heat,total,3.0,ct,9,11360
+Hydathode cells,rep3,Heat,median_gene,0.0,ct,9,11360
+Hydathode cells,rep3,Heat,median_gene_per_cell,0.0,ct,9,11360
+Hydathode cells,rep3,Heat,pct_reads,0.0264,ct,9,11360
+Hydathode cells,rep3,Heat,total,21.0,cr,9,11360
+Hydathode cells,rep3,Heat,median_gene,0.0,cr,9,11360
+Hydathode cells,rep3,Heat,median_gene_per_cell,0.0,cr,9,11360
+Hydathode cells,rep3,Heat,pct_reads,0.1849,cr,9,11360
+Hydathode cells,rep3,Heat,total,44.0,organelle,9,11360
+Hydathode cells,rep3,Heat,median_gene,0.0,organelle,9,11360
+Hydathode cells,rep3,Heat,median_gene_per_cell,0.0,organelle,9,11360
+Hydathode cells,rep3,Heat,pct_reads,0.3873,organelle,9,11360
+Mesophyll,rep1,Control,total,31507.0,cp,1900,2442675
+Mesophyll,rep1,Control,median_gene,154.5,cp,1900,2442675
+Mesophyll,rep1,Control,median_gene_per_cell,0.0813,cp,1900,2442675
+Mesophyll,rep1,Control,pct_reads,1.2899,cp,1900,2442675
+Mesophyll,rep1,Control,total,3681.0,ct,1900,2442675
+Mesophyll,rep1,Control,median_gene,0.0,ct,1900,2442675
+Mesophyll,rep1,Control,median_gene_per_cell,0.0,ct,1900,2442675
+Mesophyll,rep1,Control,pct_reads,0.1507,ct,1900,2442675
+Mesophyll,rep1,Control,total,435785.0,cr,1900,2442675
+Mesophyll,rep1,Control,median_gene,0.5,cr,1900,2442675
+Mesophyll,rep1,Control,median_gene_per_cell,0.0003,cr,1900,2442675
+Mesophyll,rep1,Control,pct_reads,17.8405,cr,1900,2442675
+Mesophyll,rep1,Control,total,470973.0,organelle,1900,2442675
+Mesophyll,rep1,Control,median_gene,32.5,organelle,1900,2442675
+Mesophyll,rep1,Control,median_gene_per_cell,0.0171,organelle,1900,2442675
+Mesophyll,rep1,Control,pct_reads,19.281,organelle,1900,2442675
+Mesophyll,rep1,Drought,total,16737.0,cp,795,960230
+Mesophyll,rep1,Drought,median_gene,60.5,cp,795,960230
+Mesophyll,rep1,Drought,median_gene_per_cell,0.0761,cp,795,960230
+Mesophyll,rep1,Drought,pct_reads,1.743,cp,795,960230
+Mesophyll,rep1,Drought,total,2122.0,ct,795,960230
+Mesophyll,rep1,Drought,median_gene,0.0,ct,795,960230
+Mesophyll,rep1,Drought,median_gene_per_cell,0.0,ct,795,960230
+Mesophyll,rep1,Drought,pct_reads,0.221,ct,795,960230
+Mesophyll,rep1,Drought,total,276871.0,cr,795,960230
+Mesophyll,rep1,Drought,median_gene,12.5,cr,795,960230
+Mesophyll,rep1,Drought,median_gene_per_cell,0.0157,cr,795,960230
+Mesophyll,rep1,Drought,pct_reads,28.8338,cr,795,960230
+Mesophyll,rep1,Drought,total,295730.0,organelle,795,960230
+Mesophyll,rep1,Drought,median_gene,17.0,organelle,795,960230
+Mesophyll,rep1,Drought,median_gene_per_cell,0.0214,organelle,795,960230
+Mesophyll,rep1,Drought,pct_reads,30.7978,organelle,795,960230
+Mesophyll,rep1,HD,total,69408.0,cp,3768,5438241
+Mesophyll,rep1,HD,median_gene,254.0,cp,3768,5438241
+Mesophyll,rep1,HD,median_gene_per_cell,0.0674,cp,3768,5438241
+Mesophyll,rep1,HD,pct_reads,1.2763,cp,3768,5438241
+Mesophyll,rep1,HD,total,12322.0,ct,3768,5438241
+Mesophyll,rep1,HD,median_gene,1.0,ct,3768,5438241
+Mesophyll,rep1,HD,median_gene_per_cell,0.0003,ct,3768,5438241
+Mesophyll,rep1,HD,pct_reads,0.2266,ct,3768,5438241
+Mesophyll,rep1,HD,total,772264.0,cr,3768,5438241
+Mesophyll,rep1,HD,median_gene,5.5,cr,3768,5438241
+Mesophyll,rep1,HD,median_gene_per_cell,0.0015,cr,3768,5438241
+Mesophyll,rep1,HD,pct_reads,14.2006,cr,3768,5438241
+Mesophyll,rep1,HD,total,853994.0,organelle,3768,5438241
+Mesophyll,rep1,HD,median_gene,49.5,organelle,3768,5438241
+Mesophyll,rep1,HD,median_gene_per_cell,0.0131,organelle,3768,5438241
+Mesophyll,rep1,HD,pct_reads,15.7035,organelle,3768,5438241
+Mesophyll,rep1,Heat,total,4972.0,cp,462,411655
+Mesophyll,rep1,Heat,median_gene,18.5,cp,462,411655
+Mesophyll,rep1,Heat,median_gene_per_cell,0.04,cp,462,411655
+Mesophyll,rep1,Heat,pct_reads,1.2078,cp,462,411655
+Mesophyll,rep1,Heat,total,405.0,ct,462,411655
+Mesophyll,rep1,Heat,median_gene,0.0,ct,462,411655
+Mesophyll,rep1,Heat,median_gene_per_cell,0.0,ct,462,411655
+Mesophyll,rep1,Heat,pct_reads,0.0984,ct,462,411655
+Mesophyll,rep1,Heat,total,67919.0,cr,462,411655
+Mesophyll,rep1,Heat,median_gene,1.0,cr,462,411655
+Mesophyll,rep1,Heat,median_gene_per_cell,0.0022,cr,462,411655
+Mesophyll,rep1,Heat,pct_reads,16.499,cr,462,411655
+Mesophyll,rep1,Heat,total,73296.0,organelle,462,411655
+Mesophyll,rep1,Heat,median_gene,3.5,organelle,462,411655
+Mesophyll,rep1,Heat,median_gene_per_cell,0.0076,organelle,462,411655
+Mesophyll,rep1,Heat,pct_reads,17.8052,organelle,462,411655
+Mesophyll,rep1A,Control,total,37141.0,cp,1865,2021323
+Mesophyll,rep1A,Control,median_gene,143.5,cp,1865,2021323
+Mesophyll,rep1A,Control,median_gene_per_cell,0.0769,cp,1865,2021323
+Mesophyll,rep1A,Control,pct_reads,1.8375,cp,1865,2021323
+Mesophyll,rep1A,Control,total,3338.0,ct,1865,2021323
+Mesophyll,rep1A,Control,median_gene,0.5,ct,1865,2021323
+Mesophyll,rep1A,Control,median_gene_per_cell,0.0003,ct,1865,2021323
+Mesophyll,rep1A,Control,pct_reads,0.1651,ct,1865,2021323
+Mesophyll,rep1A,Control,total,356084.0,cr,1865,2021323
+Mesophyll,rep1A,Control,median_gene,2.0,cr,1865,2021323
+Mesophyll,rep1A,Control,median_gene_per_cell,0.0011,cr,1865,2021323
+Mesophyll,rep1A,Control,pct_reads,17.6164,cr,1865,2021323
+Mesophyll,rep1A,Control,total,396563.0,organelle,1865,2021323
+Mesophyll,rep1A,Control,median_gene,27.0,organelle,1865,2021323
+Mesophyll,rep1A,Control,median_gene_per_cell,0.0145,organelle,1865,2021323
+Mesophyll,rep1A,Control,pct_reads,19.619,organelle,1865,2021323
+Mesophyll,rep2,Control,total,4462.0,cp,393,478025
+Mesophyll,rep2,Control,median_gene,12.5,cp,393,478025
+Mesophyll,rep2,Control,median_gene_per_cell,0.0318,cp,393,478025
+Mesophyll,rep2,Control,pct_reads,0.9334,cp,393,478025
+Mesophyll,rep2,Control,total,277.0,ct,393,478025
+Mesophyll,rep2,Control,median_gene,0.0,ct,393,478025
+Mesophyll,rep2,Control,median_gene_per_cell,0.0,ct,393,478025
+Mesophyll,rep2,Control,pct_reads,0.0579,ct,393,478025
+Mesophyll,rep2,Control,total,149967.0,cr,393,478025
+Mesophyll,rep2,Control,median_gene,1.5,cr,393,478025
+Mesophyll,rep2,Control,median_gene_per_cell,0.0038,cr,393,478025
+Mesophyll,rep2,Control,pct_reads,31.3722,cr,393,478025
+Mesophyll,rep2,Control,total,154706.0,organelle,393,478025
+Mesophyll,rep2,Control,median_gene,3.5,organelle,393,478025
+Mesophyll,rep2,Control,median_gene_per_cell,0.0089,organelle,393,478025
+Mesophyll,rep2,Control,pct_reads,32.3636,organelle,393,478025
+Mesophyll,rep2,Drought,total,64613.0,cp,1572,3546923
+Mesophyll,rep2,Drought,median_gene,163.0,cp,1572,3546923
+Mesophyll,rep2,Drought,median_gene_per_cell,0.1037,cp,1572,3546923
+Mesophyll,rep2,Drought,pct_reads,1.8217,cp,1572,3546923
+Mesophyll,rep2,Drought,total,6219.0,ct,1572,3546923
+Mesophyll,rep2,Drought,median_gene,2.0,ct,1572,3546923
+Mesophyll,rep2,Drought,median_gene_per_cell,0.0013,ct,1572,3546923
+Mesophyll,rep2,Drought,pct_reads,0.1753,ct,1572,3546923
+Mesophyll,rep2,Drought,total,1703854.0,cr,1572,3546923
+Mesophyll,rep2,Drought,median_gene,23.5,cr,1572,3546923
+Mesophyll,rep2,Drought,median_gene_per_cell,0.0149,cr,1572,3546923
+Mesophyll,rep2,Drought,pct_reads,48.0375,cr,1572,3546923
+Mesophyll,rep2,Drought,total,1774686.0,organelle,1572,3546923
+Mesophyll,rep2,Drought,median_gene,53.5,organelle,1572,3546923
+Mesophyll,rep2,Drought,median_gene_per_cell,0.034,organelle,1572,3546923
+Mesophyll,rep2,Drought,pct_reads,50.0345,organelle,1572,3546923
+Mesophyll,rep2,HD,total,44491.0,cp,2452,3865790
+Mesophyll,rep2,HD,median_gene,128.5,cp,2452,3865790
+Mesophyll,rep2,HD,median_gene_per_cell,0.0524,cp,2452,3865790
+Mesophyll,rep2,HD,pct_reads,1.1509,cp,2452,3865790
+Mesophyll,rep2,HD,total,4249.0,ct,2452,3865790
+Mesophyll,rep2,HD,median_gene,3.0,ct,2452,3865790
+Mesophyll,rep2,HD,median_gene_per_cell,0.0012,ct,2452,3865790
+Mesophyll,rep2,HD,pct_reads,0.1099,ct,2452,3865790
+Mesophyll,rep2,HD,total,856738.0,cr,2452,3865790
+Mesophyll,rep2,HD,median_gene,2.0,cr,2452,3865790
+Mesophyll,rep2,HD,median_gene_per_cell,0.0008,cr,2452,3865790
+Mesophyll,rep2,HD,pct_reads,22.162,cr,2452,3865790
+Mesophyll,rep2,HD,total,905478.0,organelle,2452,3865790
+Mesophyll,rep2,HD,median_gene,31.0,organelle,2452,3865790
+Mesophyll,rep2,HD,median_gene_per_cell,0.0126,organelle,2452,3865790
+Mesophyll,rep2,HD,pct_reads,23.4228,organelle,2452,3865790
+Mesophyll,rep2,Heat,total,10860.0,cp,1499,1712037
+Mesophyll,rep2,Heat,median_gene,29.0,cp,1499,1712037
+Mesophyll,rep2,Heat,median_gene_per_cell,0.0193,cp,1499,1712037
+Mesophyll,rep2,Heat,pct_reads,0.6343,cp,1499,1712037
+Mesophyll,rep2,Heat,total,1176.0,ct,1499,1712037
+Mesophyll,rep2,Heat,median_gene,0.5,ct,1499,1712037
+Mesophyll,rep2,Heat,median_gene_per_cell,0.0003,ct,1499,1712037
+Mesophyll,rep2,Heat,pct_reads,0.0687,ct,1499,1712037
+Mesophyll,rep2,Heat,total,357897.0,cr,1499,1712037
+Mesophyll,rep2,Heat,median_gene,2.5,cr,1499,1712037
+Mesophyll,rep2,Heat,median_gene_per_cell,0.0017,cr,1499,1712037
+Mesophyll,rep2,Heat,pct_reads,20.9047,cr,1499,1712037
+Mesophyll,rep2,Heat,total,369933.0,organelle,1499,1712037
+Mesophyll,rep2,Heat,median_gene,6.5,organelle,1499,1712037
+Mesophyll,rep2,Heat,median_gene_per_cell,0.0043,organelle,1499,1712037
+Mesophyll,rep2,Heat,pct_reads,21.6078,organelle,1499,1712037
+Mesophyll,rep3,Control,total,5264.0,cp,1177,1078107
+Mesophyll,rep3,Control,median_gene,24.0,cp,1177,1078107
+Mesophyll,rep3,Control,median_gene_per_cell,0.0204,cp,1177,1078107
+Mesophyll,rep3,Control,pct_reads,0.4883,cp,1177,1078107
+Mesophyll,rep3,Control,total,684.0,ct,1177,1078107
+Mesophyll,rep3,Control,median_gene,0.0,ct,1177,1078107
+Mesophyll,rep3,Control,median_gene_per_cell,0.0,ct,1177,1078107
+Mesophyll,rep3,Control,pct_reads,0.0634,ct,1177,1078107
+Mesophyll,rep3,Control,total,1026.0,cr,1177,1078107
+Mesophyll,rep3,Control,median_gene,0.0,cr,1177,1078107
+Mesophyll,rep3,Control,median_gene_per_cell,0.0,cr,1177,1078107
+Mesophyll,rep3,Control,pct_reads,0.0952,cr,1177,1078107
+Mesophyll,rep3,Control,total,6974.0,organelle,1177,1078107
+Mesophyll,rep3,Control,median_gene,5.5,organelle,1177,1078107
+Mesophyll,rep3,Control,median_gene_per_cell,0.0047,organelle,1177,1078107
+Mesophyll,rep3,Control,pct_reads,0.6469,organelle,1177,1078107
+Mesophyll,rep3,Drought,total,3209.0,cp,802,720744
+Mesophyll,rep3,Drought,median_gene,12.0,cp,802,720744
+Mesophyll,rep3,Drought,median_gene_per_cell,0.015,cp,802,720744
+Mesophyll,rep3,Drought,pct_reads,0.4452,cp,802,720744
+Mesophyll,rep3,Drought,total,398.0,ct,802,720744
+Mesophyll,rep3,Drought,median_gene,0.0,ct,802,720744
+Mesophyll,rep3,Drought,median_gene_per_cell,0.0,ct,802,720744
+Mesophyll,rep3,Drought,pct_reads,0.0552,ct,802,720744
+Mesophyll,rep3,Drought,total,766.0,cr,802,720744
+Mesophyll,rep3,Drought,median_gene,0.0,cr,802,720744
+Mesophyll,rep3,Drought,median_gene_per_cell,0.0,cr,802,720744
+Mesophyll,rep3,Drought,pct_reads,0.1063,cr,802,720744
+Mesophyll,rep3,Drought,total,4373.0,organelle,802,720744
+Mesophyll,rep3,Drought,median_gene,4.0,organelle,802,720744
+Mesophyll,rep3,Drought,median_gene_per_cell,0.005,organelle,802,720744
+Mesophyll,rep3,Drought,pct_reads,0.6067,organelle,802,720744
+Mesophyll,rep3,HD,total,2913.0,cp,547,527004
+Mesophyll,rep3,HD,median_gene,11.5,cp,547,527004
+Mesophyll,rep3,HD,median_gene_per_cell,0.021,cp,547,527004
+Mesophyll,rep3,HD,pct_reads,0.5527,cp,547,527004
+Mesophyll,rep3,HD,total,413.0,ct,547,527004
+Mesophyll,rep3,HD,median_gene,0.0,ct,547,527004
+Mesophyll,rep3,HD,median_gene_per_cell,0.0,ct,547,527004
+Mesophyll,rep3,HD,pct_reads,0.0784,ct,547,527004
+Mesophyll,rep3,HD,total,825.0,cr,547,527004
+Mesophyll,rep3,HD,median_gene,0.0,cr,547,527004
+Mesophyll,rep3,HD,median_gene_per_cell,0.0,cr,547,527004
+Mesophyll,rep3,HD,pct_reads,0.1565,cr,547,527004
+Mesophyll,rep3,HD,total,4151.0,organelle,547,527004
+Mesophyll,rep3,HD,median_gene,3.5,organelle,547,527004
+Mesophyll,rep3,HD,median_gene_per_cell,0.0064,organelle,547,527004
+Mesophyll,rep3,HD,pct_reads,0.7877,organelle,547,527004
+Mesophyll,rep3,Heat,total,7273.0,cp,1545,1290327
+Mesophyll,rep3,Heat,median_gene,31.5,cp,1545,1290327
+Mesophyll,rep3,Heat,median_gene_per_cell,0.0204,cp,1545,1290327
+Mesophyll,rep3,Heat,pct_reads,0.5637,cp,1545,1290327
+Mesophyll,rep3,Heat,total,778.0,ct,1545,1290327
+Mesophyll,rep3,Heat,median_gene,0.0,ct,1545,1290327
+Mesophyll,rep3,Heat,median_gene_per_cell,0.0,ct,1545,1290327
+Mesophyll,rep3,Heat,pct_reads,0.0603,ct,1545,1290327
+Mesophyll,rep3,Heat,total,3380.0,cr,1545,1290327
+Mesophyll,rep3,Heat,median_gene,0.0,cr,1545,1290327
+Mesophyll,rep3,Heat,median_gene_per_cell,0.0,cr,1545,1290327
+Mesophyll,rep3,Heat,pct_reads,0.2619,cr,1545,1290327
+Mesophyll,rep3,Heat,total,11431.0,organelle,1545,1290327
+Mesophyll,rep3,Heat,median_gene,12.5,organelle,1545,1290327
+Mesophyll,rep3,Heat,median_gene_per_cell,0.0081,organelle,1545,1290327
+Mesophyll,rep3,Heat,pct_reads,0.8859,organelle,1545,1290327
+Unknown,rep1,Control,total,512.0,cp,42,70940
+Unknown,rep1,Control,median_gene,2.5,cp,42,70940
+Unknown,rep1,Control,median_gene_per_cell,0.0595,cp,42,70940
+Unknown,rep1,Control,pct_reads,0.7217,cp,42,70940
+Unknown,rep1,Control,total,60.0,ct,42,70940
+Unknown,rep1,Control,median_gene,0.0,ct,42,70940
+Unknown,rep1,Control,median_gene_per_cell,0.0,ct,42,70940
+Unknown,rep1,Control,pct_reads,0.0846,ct,42,70940
+Unknown,rep1,Control,total,8439.0,cr,42,70940
+Unknown,rep1,Control,median_gene,0.0,cr,42,70940
+Unknown,rep1,Control,median_gene_per_cell,0.0,cr,42,70940
+Unknown,rep1,Control,pct_reads,11.896,cr,42,70940
+Unknown,rep1,Control,total,9011.0,organelle,42,70940
+Unknown,rep1,Control,median_gene,0.0,organelle,42,70940
+Unknown,rep1,Control,median_gene_per_cell,0.0,organelle,42,70940
+Unknown,rep1,Control,pct_reads,12.7023,organelle,42,70940
+Unknown,rep1,Drought,total,218.0,cp,17,24179
+Unknown,rep1,Drought,median_gene,1.0,cp,17,24179
+Unknown,rep1,Drought,median_gene_per_cell,0.0588,cp,17,24179
+Unknown,rep1,Drought,pct_reads,0.9016,cp,17,24179
+Unknown,rep1,Drought,total,29.0,ct,17,24179
+Unknown,rep1,Drought,median_gene,0.0,ct,17,24179
+Unknown,rep1,Drought,median_gene_per_cell,0.0,ct,17,24179
+Unknown,rep1,Drought,pct_reads,0.1199,ct,17,24179
+Unknown,rep1,Drought,total,4226.0,cr,17,24179
+Unknown,rep1,Drought,median_gene,0.0,cr,17,24179
+Unknown,rep1,Drought,median_gene_per_cell,0.0,cr,17,24179
+Unknown,rep1,Drought,pct_reads,17.478,cr,17,24179
+Unknown,rep1,Drought,total,4473.0,organelle,17,24179
+Unknown,rep1,Drought,median_gene,0.0,organelle,17,24179
+Unknown,rep1,Drought,median_gene_per_cell,0.0,organelle,17,24179
+Unknown,rep1,Drought,pct_reads,18.4995,organelle,17,24179
+Unknown,rep1,HD,total,148.0,cp,19,27779
+Unknown,rep1,HD,median_gene,0.0,cp,19,27779
+Unknown,rep1,HD,median_gene_per_cell,0.0,cp,19,27779
+Unknown,rep1,HD,pct_reads,0.5328,cp,19,27779
+Unknown,rep1,HD,total,21.0,ct,19,27779
+Unknown,rep1,HD,median_gene,0.0,ct,19,27779
+Unknown,rep1,HD,median_gene_per_cell,0.0,ct,19,27779
+Unknown,rep1,HD,pct_reads,0.0756,ct,19,27779
+Unknown,rep1,HD,total,2008.0,cr,19,27779
+Unknown,rep1,HD,median_gene,0.0,cr,19,27779
+Unknown,rep1,HD,median_gene_per_cell,0.0,cr,19,27779
+Unknown,rep1,HD,pct_reads,7.2285,cr,19,27779
+Unknown,rep1,HD,total,2177.0,organelle,19,27779
+Unknown,rep1,HD,median_gene,0.0,organelle,19,27779
+Unknown,rep1,HD,median_gene_per_cell,0.0,organelle,19,27779
+Unknown,rep1,HD,pct_reads,7.8369,organelle,19,27779
+Unknown,rep1,Heat,total,152.0,cp,21,22238
+Unknown,rep1,Heat,median_gene,0.5,cp,21,22238
+Unknown,rep1,Heat,median_gene_per_cell,0.0238,cp,21,22238
+Unknown,rep1,Heat,pct_reads,0.6835,cp,21,22238
+Unknown,rep1,Heat,total,11.0,ct,21,22238
+Unknown,rep1,Heat,median_gene,0.0,ct,21,22238
+Unknown,rep1,Heat,median_gene_per_cell,0.0,ct,21,22238
+Unknown,rep1,Heat,pct_reads,0.0495,ct,21,22238
+Unknown,rep1,Heat,total,1185.0,cr,21,22238
+Unknown,rep1,Heat,median_gene,0.0,cr,21,22238
+Unknown,rep1,Heat,median_gene_per_cell,0.0,cr,21,22238
+Unknown,rep1,Heat,pct_reads,5.3287,cr,21,22238
+Unknown,rep1,Heat,total,1348.0,organelle,21,22238
+Unknown,rep1,Heat,median_gene,0.0,organelle,21,22238
+Unknown,rep1,Heat,median_gene_per_cell,0.0,organelle,21,22238
+Unknown,rep1,Heat,pct_reads,6.0617,organelle,21,22238
+Unknown,rep1A,Control,total,845.0,cp,49,62536
+Unknown,rep1A,Control,median_gene,4.0,cp,49,62536
+Unknown,rep1A,Control,median_gene_per_cell,0.0816,cp,49,62536
+Unknown,rep1A,Control,pct_reads,1.3512,cp,49,62536
+Unknown,rep1A,Control,total,60.0,ct,49,62536
+Unknown,rep1A,Control,median_gene,0.0,ct,49,62536
+Unknown,rep1A,Control,median_gene_per_cell,0.0,ct,49,62536
+Unknown,rep1A,Control,pct_reads,0.0959,ct,49,62536
+Unknown,rep1A,Control,total,6819.0,cr,49,62536
+Unknown,rep1A,Control,median_gene,0.0,cr,49,62536
+Unknown,rep1A,Control,median_gene_per_cell,0.0,cr,49,62536
+Unknown,rep1A,Control,pct_reads,10.9041,cr,49,62536
+Unknown,rep1A,Control,total,7724.0,organelle,49,62536
+Unknown,rep1A,Control,median_gene,0.5,organelle,49,62536
+Unknown,rep1A,Control,median_gene_per_cell,0.0102,organelle,49,62536
+Unknown,rep1A,Control,pct_reads,12.3513,organelle,49,62536
+Unknown,rep2,Control,total,180.0,cp,23,29525
+Unknown,rep2,Control,median_gene,0.0,cp,23,29525
+Unknown,rep2,Control,median_gene_per_cell,0.0,cp,23,29525
+Unknown,rep2,Control,pct_reads,0.6097,cp,23,29525
+Unknown,rep2,Control,total,8.0,ct,23,29525
+Unknown,rep2,Control,median_gene,0.0,ct,23,29525
+Unknown,rep2,Control,median_gene_per_cell,0.0,ct,23,29525
+Unknown,rep2,Control,pct_reads,0.0271,ct,23,29525
+Unknown,rep2,Control,total,5510.0,cr,23,29525
+Unknown,rep2,Control,median_gene,0.0,cr,23,29525
+Unknown,rep2,Control,median_gene_per_cell,0.0,cr,23,29525
+Unknown,rep2,Control,pct_reads,18.6622,cr,23,29525
+Unknown,rep2,Control,total,5698.0,organelle,23,29525
+Unknown,rep2,Control,median_gene,0.0,organelle,23,29525
+Unknown,rep2,Control,median_gene_per_cell,0.0,organelle,23,29525
+Unknown,rep2,Control,pct_reads,19.2989,organelle,23,29525
+Unknown,rep2,Drought,total,815.0,cp,31,55846
+Unknown,rep2,Drought,median_gene,2.0,cp,31,55846
+Unknown,rep2,Drought,median_gene_per_cell,0.0645,cp,31,55846
+Unknown,rep2,Drought,pct_reads,1.4594,cp,31,55846
+Unknown,rep2,Drought,total,71.0,ct,31,55846
+Unknown,rep2,Drought,median_gene,0.0,ct,31,55846
+Unknown,rep2,Drought,median_gene_per_cell,0.0,ct,31,55846
+Unknown,rep2,Drought,pct_reads,0.1271,ct,31,55846
+Unknown,rep2,Drought,total,19289.0,cr,31,55846
+Unknown,rep2,Drought,median_gene,0.0,cr,31,55846
+Unknown,rep2,Drought,median_gene_per_cell,0.0,cr,31,55846
+Unknown,rep2,Drought,pct_reads,34.5396,cr,31,55846
+Unknown,rep2,Drought,total,20175.0,organelle,31,55846
+Unknown,rep2,Drought,median_gene,0.0,organelle,31,55846
+Unknown,rep2,Drought,median_gene_per_cell,0.0,organelle,31,55846
+Unknown,rep2,Drought,pct_reads,36.1261,organelle,31,55846
+Unknown,rep2,HD,total,543.0,cp,56,100395
+Unknown,rep2,HD,median_gene,1.0,cp,56,100395
+Unknown,rep2,HD,median_gene_per_cell,0.0179,cp,56,100395
+Unknown,rep2,HD,pct_reads,0.5409,cp,56,100395
+Unknown,rep2,HD,total,50.0,ct,56,100395
+Unknown,rep2,HD,median_gene,0.0,ct,56,100395
+Unknown,rep2,HD,median_gene_per_cell,0.0,ct,56,100395
+Unknown,rep2,HD,pct_reads,0.0498,ct,56,100395
+Unknown,rep2,HD,total,8418.0,cr,56,100395
+Unknown,rep2,HD,median_gene,0.0,cr,56,100395
+Unknown,rep2,HD,median_gene_per_cell,0.0,cr,56,100395
+Unknown,rep2,HD,pct_reads,8.3849,cr,56,100395
+Unknown,rep2,HD,total,9011.0,organelle,56,100395
+Unknown,rep2,HD,median_gene,0.0,organelle,56,100395
+Unknown,rep2,HD,median_gene_per_cell,0.0,organelle,56,100395
+Unknown,rep2,HD,pct_reads,8.9755,organelle,56,100395
+Unknown,rep2,Heat,total,126.0,cp,28,33073
+Unknown,rep2,Heat,median_gene,0.0,cp,28,33073
+Unknown,rep2,Heat,median_gene_per_cell,0.0,cp,28,33073
+Unknown,rep2,Heat,pct_reads,0.381,cp,28,33073
+Unknown,rep2,Heat,total,17.0,ct,28,33073
+Unknown,rep2,Heat,median_gene,0.0,ct,28,33073
+Unknown,rep2,Heat,median_gene_per_cell,0.0,ct,28,33073
+Unknown,rep2,Heat,pct_reads,0.0514,ct,28,33073
+Unknown,rep2,Heat,total,2893.0,cr,28,33073
+Unknown,rep2,Heat,median_gene,0.0,cr,28,33073
+Unknown,rep2,Heat,median_gene_per_cell,0.0,cr,28,33073
+Unknown,rep2,Heat,pct_reads,8.7473,cr,28,33073
+Unknown,rep2,Heat,total,3036.0,organelle,28,33073
+Unknown,rep2,Heat,median_gene,0.0,organelle,28,33073
+Unknown,rep2,Heat,median_gene_per_cell,0.0,organelle,28,33073
+Unknown,rep2,Heat,pct_reads,9.1797,organelle,28,33073
+Unknown,rep3,Control,total,109.0,cp,21,32291
+Unknown,rep3,Control,median_gene,0.0,cp,21,32291
+Unknown,rep3,Control,median_gene_per_cell,0.0,cp,21,32291
+Unknown,rep3,Control,pct_reads,0.3376,cp,21,32291
+Unknown,rep3,Control,total,17.0,ct,21,32291
+Unknown,rep3,Control,median_gene,0.0,ct,21,32291
+Unknown,rep3,Control,median_gene_per_cell,0.0,ct,21,32291
+Unknown,rep3,Control,pct_reads,0.0526,ct,21,32291
+Unknown,rep3,Control,total,15.0,cr,21,32291
+Unknown,rep3,Control,median_gene,0.0,cr,21,32291
+Unknown,rep3,Control,median_gene_per_cell,0.0,cr,21,32291
+Unknown,rep3,Control,pct_reads,0.0465,cr,21,32291
+Unknown,rep3,Control,total,141.0,organelle,21,32291
+Unknown,rep3,Control,median_gene,0.0,organelle,21,32291
+Unknown,rep3,Control,median_gene_per_cell,0.0,organelle,21,32291
+Unknown,rep3,Control,pct_reads,0.4367,organelle,21,32291
+Unknown,rep3,Drought,total,16.0,cp,7,11205
+Unknown,rep3,Drought,median_gene,0.0,cp,7,11205
+Unknown,rep3,Drought,median_gene_per_cell,0.0,cp,7,11205
+Unknown,rep3,Drought,pct_reads,0.1428,cp,7,11205
+Unknown,rep3,Drought,total,5.0,ct,7,11205
+Unknown,rep3,Drought,median_gene,0.0,ct,7,11205
+Unknown,rep3,Drought,median_gene_per_cell,0.0,ct,7,11205
+Unknown,rep3,Drought,pct_reads,0.0446,ct,7,11205
+Unknown,rep3,Drought,total,7.0,cr,7,11205
+Unknown,rep3,Drought,median_gene,0.0,cr,7,11205
+Unknown,rep3,Drought,median_gene_per_cell,0.0,cr,7,11205
+Unknown,rep3,Drought,pct_reads,0.0625,cr,7,11205
+Unknown,rep3,Drought,total,28.0,organelle,7,11205
+Unknown,rep3,Drought,median_gene,0.0,organelle,7,11205
+Unknown,rep3,Drought,median_gene_per_cell,0.0,organelle,7,11205
+Unknown,rep3,Drought,pct_reads,0.2499,organelle,7,11205
+Unknown,rep3,HD,total,48.0,cp,16,15584
+Unknown,rep3,HD,median_gene,0.0,cp,16,15584
+Unknown,rep3,HD,median_gene_per_cell,0.0,cp,16,15584
+Unknown,rep3,HD,pct_reads,0.308,cp,16,15584
+Unknown,rep3,HD,total,5.0,ct,16,15584
+Unknown,rep3,HD,median_gene,0.0,ct,16,15584
+Unknown,rep3,HD,median_gene_per_cell,0.0,ct,16,15584
+Unknown,rep3,HD,pct_reads,0.0321,ct,16,15584
+Unknown,rep3,HD,total,16.0,cr,16,15584
+Unknown,rep3,HD,median_gene,0.0,cr,16,15584
+Unknown,rep3,HD,median_gene_per_cell,0.0,cr,16,15584
+Unknown,rep3,HD,pct_reads,0.1027,cr,16,15584
+Unknown,rep3,HD,total,69.0,organelle,16,15584
+Unknown,rep3,HD,median_gene,0.0,organelle,16,15584
+Unknown,rep3,HD,median_gene_per_cell,0.0,organelle,16,15584
+Unknown,rep3,HD,pct_reads,0.4428,organelle,16,15584
+Unknown,rep3,Heat,total,158.0,cp,35,46046
+Unknown,rep3,Heat,median_gene,1.0,cp,35,46046
+Unknown,rep3,Heat,median_gene_per_cell,0.0286,cp,35,46046
+Unknown,rep3,Heat,pct_reads,0.3431,cp,35,46046
+Unknown,rep3,Heat,total,12.0,ct,35,46046
+Unknown,rep3,Heat,median_gene,0.0,ct,35,46046
+Unknown,rep3,Heat,median_gene_per_cell,0.0,ct,35,46046
+Unknown,rep3,Heat,pct_reads,0.0261,ct,35,46046
+Unknown,rep3,Heat,total,61.0,cr,35,46046
+Unknown,rep3,Heat,median_gene,0.0,cr,35,46046
+Unknown,rep3,Heat,median_gene_per_cell,0.0,cr,35,46046
+Unknown,rep3,Heat,pct_reads,0.1325,cr,35,46046
+Unknown,rep3,Heat,total,231.0,organelle,35,46046
+Unknown,rep3,Heat,median_gene,0.0,organelle,35,46046
+Unknown,rep3,Heat,median_gene_per_cell,0.0,organelle,35,46046
+Unknown,rep3,Heat,pct_reads,0.5017,organelle,35,46046
+Vascular/Phloem parenchyma,rep1,Control,total,2685.0,cp,128,183545
+Vascular/Phloem parenchyma,rep1,Control,median_gene,15.0,cp,128,183545
+Vascular/Phloem parenchyma,rep1,Control,median_gene_per_cell,0.1172,cp,128,183545
+Vascular/Phloem parenchyma,rep1,Control,pct_reads,1.4629,cp,128,183545
+Vascular/Phloem parenchyma,rep1,Control,total,290.0,ct,128,183545
+Vascular/Phloem parenchyma,rep1,Control,median_gene,0.0,ct,128,183545
+Vascular/Phloem parenchyma,rep1,Control,median_gene_per_cell,0.0,ct,128,183545
+Vascular/Phloem parenchyma,rep1,Control,pct_reads,0.158,ct,128,183545
+Vascular/Phloem parenchyma,rep1,Control,total,34145.0,cr,128,183545
+Vascular/Phloem parenchyma,rep1,Control,median_gene,0.0,cr,128,183545
+Vascular/Phloem parenchyma,rep1,Control,median_gene_per_cell,0.0,cr,128,183545
+Vascular/Phloem parenchyma,rep1,Control,pct_reads,18.6031,cr,128,183545
+Vascular/Phloem parenchyma,rep1,Control,total,37120.0,organelle,128,183545
+Vascular/Phloem parenchyma,rep1,Control,median_gene,4.0,organelle,128,183545
+Vascular/Phloem parenchyma,rep1,Control,median_gene_per_cell,0.0312,organelle,128,183545
+Vascular/Phloem parenchyma,rep1,Control,pct_reads,20.2239,organelle,128,183545
+Vascular/Phloem parenchyma,rep1,Drought,total,809.0,cp,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,median_gene,3.0,cp,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,median_gene_per_cell,0.0811,cp,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,pct_reads,1.596,cp,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,total,91.0,ct,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,median_gene,0.0,ct,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,median_gene_per_cell,0.0,ct,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,pct_reads,0.1795,ct,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,total,16080.0,cr,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,median_gene,0.0,cr,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,median_gene_per_cell,0.0,cr,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,pct_reads,31.7222,cr,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,total,16980.0,organelle,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,median_gene,0.0,organelle,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,median_gene_per_cell,0.0,organelle,37,50690
+Vascular/Phloem parenchyma,rep1,Drought,pct_reads,33.4977,organelle,37,50690
+Vascular/Phloem parenchyma,rep1,HD,total,772.0,cp,82,89249
+Vascular/Phloem parenchyma,rep1,HD,median_gene,3.0,cp,82,89249
+Vascular/Phloem parenchyma,rep1,HD,median_gene_per_cell,0.0366,cp,82,89249
+Vascular/Phloem parenchyma,rep1,HD,pct_reads,0.865,cp,82,89249
+Vascular/Phloem parenchyma,rep1,HD,total,144.0,ct,82,89249
+Vascular/Phloem parenchyma,rep1,HD,median_gene,0.0,ct,82,89249
+Vascular/Phloem parenchyma,rep1,HD,median_gene_per_cell,0.0,ct,82,89249
+Vascular/Phloem parenchyma,rep1,HD,pct_reads,0.1613,ct,82,89249
+Vascular/Phloem parenchyma,rep1,HD,total,10010.0,cr,82,89249
+Vascular/Phloem parenchyma,rep1,HD,median_gene,0.0,cr,82,89249
+Vascular/Phloem parenchyma,rep1,HD,median_gene_per_cell,0.0,cr,82,89249
+Vascular/Phloem parenchyma,rep1,HD,pct_reads,11.2158,cr,82,89249
+Vascular/Phloem parenchyma,rep1,HD,total,10926.0,organelle,82,89249
+Vascular/Phloem parenchyma,rep1,HD,median_gene,0.0,organelle,82,89249
+Vascular/Phloem parenchyma,rep1,HD,median_gene_per_cell,0.0,organelle,82,89249
+Vascular/Phloem parenchyma,rep1,HD,pct_reads,12.2422,organelle,82,89249
+Vascular/Phloem parenchyma,rep1,Heat,total,364.0,cp,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,median_gene,1.0,cp,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,median_gene_per_cell,0.0333,cp,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,pct_reads,1.2569,cp,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,total,35.0,ct,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,median_gene,0.0,ct,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,median_gene_per_cell,0.0,ct,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,pct_reads,0.1209,ct,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,total,5023.0,cr,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,median_gene,0.0,cr,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,median_gene_per_cell,0.0,cr,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,pct_reads,17.3446,cr,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,total,5422.0,organelle,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,median_gene,0.0,organelle,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,median_gene_per_cell,0.0,organelle,30,28960
+Vascular/Phloem parenchyma,rep1,Heat,pct_reads,18.7224,organelle,30,28960
+Vascular/Phloem parenchyma,rep1A,Control,total,1869.0,cp,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,median_gene,7.0,cp,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,median_gene_per_cell,0.0787,cp,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,pct_reads,1.7645,cp,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,total,162.0,ct,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,median_gene,0.0,ct,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,median_gene_per_cell,0.0,ct,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,pct_reads,0.1529,ct,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,total,17670.0,cr,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,median_gene,0.0,cr,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,median_gene_per_cell,0.0,cr,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,pct_reads,16.6821,cr,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,total,19701.0,organelle,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,median_gene,1.0,organelle,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,median_gene_per_cell,0.0112,organelle,89,105922
+Vascular/Phloem parenchyma,rep1A,Control,pct_reads,18.5995,organelle,89,105922
+Vascular/Phloem parenchyma,rep2,Control,total,394.0,cp,34,43710
+Vascular/Phloem parenchyma,rep2,Control,median_gene,1.0,cp,34,43710
+Vascular/Phloem parenchyma,rep2,Control,median_gene_per_cell,0.0294,cp,34,43710
+Vascular/Phloem parenchyma,rep2,Control,pct_reads,0.9014,cp,34,43710
+Vascular/Phloem parenchyma,rep2,Control,total,23.0,ct,34,43710
+Vascular/Phloem parenchyma,rep2,Control,median_gene,0.0,ct,34,43710
+Vascular/Phloem parenchyma,rep2,Control,median_gene_per_cell,0.0,ct,34,43710
+Vascular/Phloem parenchyma,rep2,Control,pct_reads,0.0526,ct,34,43710
+Vascular/Phloem parenchyma,rep2,Control,total,11132.0,cr,34,43710
+Vascular/Phloem parenchyma,rep2,Control,median_gene,0.0,cr,34,43710
+Vascular/Phloem parenchyma,rep2,Control,median_gene_per_cell,0.0,cr,34,43710
+Vascular/Phloem parenchyma,rep2,Control,pct_reads,25.4679,cr,34,43710
+Vascular/Phloem parenchyma,rep2,Control,total,11549.0,organelle,34,43710
+Vascular/Phloem parenchyma,rep2,Control,median_gene,0.0,organelle,34,43710
+Vascular/Phloem parenchyma,rep2,Control,median_gene_per_cell,0.0,organelle,34,43710
+Vascular/Phloem parenchyma,rep2,Control,pct_reads,26.4219,organelle,34,43710
+Vascular/Phloem parenchyma,rep2,Drought,total,2570.0,cp,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,median_gene,7.0,cp,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,median_gene_per_cell,0.1094,cp,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,pct_reads,1.6085,cp,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,total,231.0,ct,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,median_gene,0.0,ct,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,median_gene_per_cell,0.0,ct,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,pct_reads,0.1446,ct,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,total,71700.0,cr,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,median_gene,1.5,cr,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,median_gene_per_cell,0.0234,cr,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,pct_reads,44.8759,cr,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,total,74501.0,organelle,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,median_gene,2.0,organelle,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,median_gene_per_cell,0.0312,organelle,64,159774
+Vascular/Phloem parenchyma,rep2,Drought,pct_reads,46.629,organelle,64,159774
+Vascular/Phloem parenchyma,rep2,HD,total,874.0,cp,53,98907
+Vascular/Phloem parenchyma,rep2,HD,median_gene,2.0,cp,53,98907
+Vascular/Phloem parenchyma,rep2,HD,median_gene_per_cell,0.0377,cp,53,98907
+Vascular/Phloem parenchyma,rep2,HD,pct_reads,0.8837,cp,53,98907
+Vascular/Phloem parenchyma,rep2,HD,total,103.0,ct,53,98907
+Vascular/Phloem parenchyma,rep2,HD,median_gene,0.0,ct,53,98907
+Vascular/Phloem parenchyma,rep2,HD,median_gene_per_cell,0.0,ct,53,98907
+Vascular/Phloem parenchyma,rep2,HD,pct_reads,0.1041,ct,53,98907
+Vascular/Phloem parenchyma,rep2,HD,total,16308.0,cr,53,98907
+Vascular/Phloem parenchyma,rep2,HD,median_gene,0.0,cr,53,98907
+Vascular/Phloem parenchyma,rep2,HD,median_gene_per_cell,0.0,cr,53,98907
+Vascular/Phloem parenchyma,rep2,HD,pct_reads,16.4882,cr,53,98907
+Vascular/Phloem parenchyma,rep2,HD,total,17285.0,organelle,53,98907
+Vascular/Phloem parenchyma,rep2,HD,median_gene,1.0,organelle,53,98907
+Vascular/Phloem parenchyma,rep2,HD,median_gene_per_cell,0.0189,organelle,53,98907
+Vascular/Phloem parenchyma,rep2,HD,pct_reads,17.476,organelle,53,98907
+Vascular/Phloem parenchyma,rep2,Heat,total,367.0,cp,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,median_gene,1.0,cp,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,median_gene_per_cell,0.0175,cp,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,pct_reads,0.579,cp,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,total,38.0,ct,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,median_gene,0.0,ct,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,median_gene_per_cell,0.0,ct,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,pct_reads,0.0599,ct,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,total,10160.0,cr,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,median_gene,0.0,cr,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,median_gene_per_cell,0.0,cr,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,pct_reads,16.0285,cr,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,total,10565.0,organelle,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,median_gene,0.0,organelle,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,median_gene_per_cell,0.0,organelle,57,63387
+Vascular/Phloem parenchyma,rep2,Heat,pct_reads,16.6675,organelle,57,63387
+Vascular/Phloem parenchyma,rep3,Control,total,205.0,cp,36,33778
+Vascular/Phloem parenchyma,rep3,Control,median_gene,1.0,cp,36,33778
+Vascular/Phloem parenchyma,rep3,Control,median_gene_per_cell,0.0278,cp,36,33778
+Vascular/Phloem parenchyma,rep3,Control,pct_reads,0.6069,cp,36,33778
+Vascular/Phloem parenchyma,rep3,Control,total,18.0,ct,36,33778
+Vascular/Phloem parenchyma,rep3,Control,median_gene,0.0,ct,36,33778
+Vascular/Phloem parenchyma,rep3,Control,median_gene_per_cell,0.0,ct,36,33778
+Vascular/Phloem parenchyma,rep3,Control,pct_reads,0.0533,ct,36,33778
+Vascular/Phloem parenchyma,rep3,Control,total,31.0,cr,36,33778
+Vascular/Phloem parenchyma,rep3,Control,median_gene,0.0,cr,36,33778
+Vascular/Phloem parenchyma,rep3,Control,median_gene_per_cell,0.0,cr,36,33778
+Vascular/Phloem parenchyma,rep3,Control,pct_reads,0.0918,cr,36,33778
+Vascular/Phloem parenchyma,rep3,Control,total,254.0,organelle,36,33778
+Vascular/Phloem parenchyma,rep3,Control,median_gene,0.0,organelle,36,33778
+Vascular/Phloem parenchyma,rep3,Control,median_gene_per_cell,0.0,organelle,36,33778
+Vascular/Phloem parenchyma,rep3,Control,pct_reads,0.752,organelle,36,33778
+Vascular/Phloem parenchyma,rep3,Drought,total,75.0,cp,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,median_gene,0.0,cp,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,median_gene_per_cell,0.0,cp,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,pct_reads,0.4694,cp,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,total,11.0,ct,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,median_gene,0.0,ct,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,median_gene_per_cell,0.0,ct,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,pct_reads,0.0688,ct,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,total,21.0,cr,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,median_gene,0.0,cr,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,median_gene_per_cell,0.0,cr,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,pct_reads,0.1314,cr,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,total,107.0,organelle,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,median_gene,0.0,organelle,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,median_gene_per_cell,0.0,organelle,17,15978
+Vascular/Phloem parenchyma,rep3,Drought,pct_reads,0.6697,organelle,17,15978
+Vascular/Phloem parenchyma,rep3,HD,total,91.0,cp,11,13980
+Vascular/Phloem parenchyma,rep3,HD,median_gene,0.0,cp,11,13980
+Vascular/Phloem parenchyma,rep3,HD,median_gene_per_cell,0.0,cp,11,13980
+Vascular/Phloem parenchyma,rep3,HD,pct_reads,0.6509,cp,11,13980
+Vascular/Phloem parenchyma,rep3,HD,total,11.0,ct,11,13980
+Vascular/Phloem parenchyma,rep3,HD,median_gene,0.0,ct,11,13980
+Vascular/Phloem parenchyma,rep3,HD,median_gene_per_cell,0.0,ct,11,13980
+Vascular/Phloem parenchyma,rep3,HD,pct_reads,0.0787,ct,11,13980
+Vascular/Phloem parenchyma,rep3,HD,total,20.0,cr,11,13980
+Vascular/Phloem parenchyma,rep3,HD,median_gene,0.0,cr,11,13980
+Vascular/Phloem parenchyma,rep3,HD,median_gene_per_cell,0.0,cr,11,13980
+Vascular/Phloem parenchyma,rep3,HD,pct_reads,0.1431,cr,11,13980
+Vascular/Phloem parenchyma,rep3,HD,total,122.0,organelle,11,13980
+Vascular/Phloem parenchyma,rep3,HD,median_gene,0.0,organelle,11,13980
+Vascular/Phloem parenchyma,rep3,HD,median_gene_per_cell,0.0,organelle,11,13980
+Vascular/Phloem parenchyma,rep3,HD,pct_reads,0.8727,organelle,11,13980
+Vascular/Phloem parenchyma,rep3,Heat,total,185.0,cp,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,median_gene,1.0,cp,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,median_gene_per_cell,0.025,cp,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,pct_reads,0.4851,cp,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,total,13.0,ct,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,median_gene,0.0,ct,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,median_gene_per_cell,0.0,ct,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,pct_reads,0.0341,ct,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,total,83.0,cr,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,median_gene,0.0,cr,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,median_gene_per_cell,0.0,cr,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,pct_reads,0.2177,cr,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,total,281.0,organelle,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,median_gene,0.0,organelle,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,median_gene_per_cell,0.0,organelle,40,38133
+Vascular/Phloem parenchyma,rep3,Heat,pct_reads,0.7369,organelle,40,38133

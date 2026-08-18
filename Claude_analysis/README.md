@@ -3,9 +3,77 @@
 Reprocessing, integration and differential expression, answering two questions:
 
 1. **Do we reproduce the collaborator's count matrix?** — yes, bit for bit, wherever the
-   FASTQ inputs match.
+   FASTQ inputs match. Now confirmed on **all 13 libraries**, not just control.
 2. **Is their integration strategy costing us DE signal?** — no. The weak Heat/Drought
    result comes from a **missing replicate-block term** in the DE design.
+
+## Q1: count matrix reproduction — all 13 libraries
+
+`01_compare_count_matrices.py`, our CellRanger **10.1.0** against their **9.0.1**, filtered
+matrices, joined on gene *id* and barcode:
+
+| | libraries | result |
+|---|---|---|
+| rep1 / rep1A / rep3 | 9 | **bit-identical** — 0 differing entries out of 4.4M–13M |
+| rep2 | 4 | differ, and the cause is fully diagnosed below |
+
+Nine of thirteen reproduce exactly: same barcodes, same genes, same integer in every cell.
+Two CellRanger minor versions apart, that is as strong a confirmation as the comparison can
+give. Only one wrinkle, in HD_1: their filtered matrix calls **2 extra barcodes** (~512 UMIs
+each, right at the cell-calling threshold) that ours does not. All 7,153 shared cells are
+identical, so this is the 9.0.1→10.1.0 cell caller moving a boundary by 0.03%, not a counting
+difference.
+
+### The four rep2 libraries are a read-depth artifact on our side, not a discrepancy
+
+Every rep2 library was sequenced **twice** — the 20251117 run and the 20251201 resequencing
+run — and the collaborator passed CellRanger both FASTQ paths (hence `_merged` in all four of
+their rep2 output directory names). The realignment in `Data/Soybean/realigned_data` passed
+only one:
+
+```
+--fastqs .../Rep_2/GR0073_20251117_correct_demultiplex_addedRNA/GR0073/untrimmed_MICHAEL_CREATED_for_confirmation
+```
+
+Control_2 pins this down arithmetically. The earlier realignment on the Mac used the *other*
+half (the 20251201 reseq run) and got 161,279,256 reads; this one used the 20251117 run and
+got 164,804,135. They sum to **326,083,391 — exactly** the collaborator's read count for that
+library. The two runs are the two halves of one library, and we have been aligning one half at
+a time.
+
+The matrices carry the same signature. On shared cells our counts are uniformly *lower*,
+never higher:
+
+| library | cells theirs / ours | UMIs retained | 99%+ of differing entries lower in ours | cells with more UMIs in ours |
+|---|---|---|---|---|
+| Control_2 | 3,310 / 1,742 | 67% | 99.6% | **0** |
+| Heat_2 | 26,616 / 20,390 | 74% | 99.6% | **0** |
+| Drought_2 | 34,984 / 37,925 | 61% | 99.7% | **0** |
+| HD_2 | 5,204 / 4,283 | 78% | 99.3% | **0** |
+
+Per-gene UMI correlation is 0.99993–0.999999 in all four. Not a single cell gains UMIs. A
+different aligner, reference or parameter set would scatter differences in both directions;
+a missing sequencing run can only subtract. Sequencing saturation confirms it — the rep2
+libraries run 41–66% against 74–98% everywhere else, i.e. undersequenced exactly where reads
+are missing. The residual 0.3–0.7% of entries that go *up* is ordinary UMI-collapse noise at
+lower depth.
+
+Drought_2 is the one place this interacts with cell calling: on ~60% of the reads we call
+*more* cells (37,925 vs 34,984), because low saturation flattens the barcode-rank knee. Its
+extra 2,970 barcodes are low-UMI (median 310) and 29 of theirs are missing from ours.
+
+**Verdict: we reproduce their count matrix.** The nine libraries with matching inputs match
+bit for bit; the four that do not are explained by an input we did not supply, with the
+direction, magnitude and read arithmetic all consistent. Re-running rep2 with both `--fastqs`
+paths — `realign_fastqs/realign_all_samples.sh` already does this, and was not the script used
+for this batch — should close the remaining four.
+
+### What survives into their analysis object
+
+`vs_adata_rna.csv`: of the cells in `adata_rna.h5ad`, we recover **100%** for 11 of 13
+libraries, 93.4% for Control_2 and 99.0% for HD_2 — the two rep2 libraries where our shallower
+run dropped barcodes below the cell-calling threshold. Their QC is aggressive (e.g. Heat_1:
+939 cells kept from 27,618 called), but every cell they kept is a cell we also called.
 
 ## Headline result
 
@@ -50,8 +118,9 @@ Everything runs from `.venv/bin/python` at the repo root (see Environment below)
 .venv/bin/python Claude_analysis/scripts/06_permutation_control.py
 ```
 
-The sample manifest in `pipeline/config.py` detects what is on disk, so these run today on
-the four control libraries and unchanged once heat, drought and HD finish realigning.
+The sample manifest in `pipeline/config.py` detects what is on disk and resolves the data
+roots per machine, so the same scripts run unchanged on a partial realignment or on the full
+set. All 13 libraries are now present on both sides.
 
 ## Experimental structure
 
@@ -201,12 +270,36 @@ Replaces the four per-condition scripts in `Cluster_analysis_files/`. Those pass
 20251201 resequencing run — hence `_merged` in their output directory names). Includes a
 preflight check that aborts loudly rather than silently half-aligning a library.
 
-Note: the rep2 mismatch is **expected** in our hands — the first run sat behind a symlink that
-was not accessible in the original download.
+**This script has still not been the one that ran.** The batch in
+`Data/Soybean/realigned_data` was produced with a single `--fastqs` path pointing at the
+20251117 run, so all four rep2 libraries are aligned on roughly half their reads. See Q1
+above for the arithmetic. Everything else in that batch is bit-perfect, so rep2 is the only
+outstanding item.
 
 ## Environment
 
-Intel Mac, so `annoy` and `torch` do not build: no BBKNN, Scanorama or scVI locally. Harmony
-and ComBat cover the two mechanistically distinct classes. Pins in
-`pipeline/../../.venv`: `numba==0.61.2`, `llvmlite==0.44.0`, `numpy<2.2`, `pandas<3`,
-`scanpy==1.11.5`.
+Two machines have run this. `pipeline/config.py` resolves the data roots by looking for them,
+so no edit is needed to move between them.
+
+**Mac (original).** `/Users/michael/Data/Soybean_data`, full collaborator CellRanger tree
+(raw + filtered matrices, `metrics_summary.csv`, CellBender h5). Intel, so `annoy` and `torch`
+do not build: no BBKNN, Scanorama or scVI locally — Harmony and ComBat cover the two
+mechanistically distinct classes. Pins in `.venv`: `numba==0.61.2`, `llvmlite==0.44.0`,
+`numpy<2.2`, `pandas<3`, `scanpy==1.11.5`.
+
+**Windows.** Realigned data at `C:/Users/mikep/Data/Soybean/realigned_data`, collaborator
+matrices at `C:/Users/mikep/Data/Cellranger_output`, `adata_rna.h5ad` in the repo under
+`Data/anndata_export/`. Interpreter is the `Single_cell` conda env
+(`C:/Users/mikep/miniconda3/envs/Single_cell/python.exe`; scanpy 1.12.3, anndata 0.13.2,
+numpy 2.4.6, pandas 3.0.3). Two caveats:
+
+- The collaborator copy here holds **only the filtered matrices**, flattened to
+  `<condition>/<rep>/`. So stage 1 (`metrics_summary.csv`), the raw-matrix comparison and the
+  CellBender comparison in script 01 have nothing to run against and are skipped. Script 01
+  writes `realigned_metrics_summary.csv` — our side of stage 1 — unconditionally.
+- **The env must be activated, not just invoked.** Calling
+  `envs/Single_cell/python.exe` directly leaves `envs/Single_cell/Library/bin` off `PATH`,
+  MKL's delay-loaded DLLs fail to resolve, and any 2-D `matmul` — so `np.cov`, `np.corrcoef`,
+  PCA — kills the interpreter with exit 127 (`0xC06D007F`, delay-load failure) and no
+  traceback. `conda activate Single_cell` first, or prepend `Library\bin` to `PATH`. Jupyter
+  launched through the activated env is unaffected, which is why the notebooks run fine.

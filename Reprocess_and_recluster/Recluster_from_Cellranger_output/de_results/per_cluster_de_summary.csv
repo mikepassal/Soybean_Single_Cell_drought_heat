@@ -1,0 +1,15 @@
+cluster,pseudosamples,cells,design,genes_tested,Drought vs Control,Heat vs Control,HD vs Control
+0,11,2222,~replicate + treatment,18998,0.0,0,2.0
+1,7,753,~replicate + treatment,15384,0.0,0,
+2,8,1726,~replicate + treatment,21336,0.0,1,
+3,9,4292,~replicate + treatment,23046,1.0,9,
+4,5,652,~treatment,11981,,0,
+5,9,306,~replicate + treatment,9566,0.0,0,7.0
+6,9,2202,~replicate + treatment,22585,0.0,0,
+7,8,280,~replicate + treatment,11359,,0,0.0
+8,12,2301,~replicate + treatment,24488,0.0,11,346.0
+9,9,3063,~replicate + treatment,11532,0.0,0,1.0
+10,6,232,~replicate + treatment,5227,0.0,0,
+11,4,89,~treatment,1187,,0,
+12,6,2190,~replicate + treatment,13273,,0,0.0
+13,10,867,~replicate + treatment,13720,0.0,0,0.0
