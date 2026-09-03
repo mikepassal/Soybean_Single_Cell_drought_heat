@@ -28,34 +28,16 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 
 # --------------------------------------------------------------------------- paths
 
+DATA_ROOT = Path("/Users/michael/Data/Soybean_data")
 
-def _first_existing(*candidates: Path, default: Path | None = None) -> Path:
-    for c in candidates:
-        if c.exists():
-            return c
-    return default if default is not None else candidates[0]
+REALIGNED_ROOT = DATA_ROOT / "Realigned_data"
+COLLAB_ROOT = DATA_ROOT / "Cell_ranger_output"
+COLLAB_H5AD = DATA_ROOT / "adata_rna.h5ad"
 
-
-REALIGNED_ROOT = _first_existing(
-    Path("/Users/michael/Data/Soybean_data/Realigned_data"),
-    Path("C:/Users/mikep/Data/Soybean/realigned_data"),
-)
-COLLAB_ROOT = _first_existing(
-    Path("/Users/michael/Data/Soybean_data/Cell_ranger_output"),
-    Path("C:/Users/mikep/Data/Cellranger_output"),
-)
-COLLAB_H5AD = _first_existing(
-    Path("/Users/michael/Data/Soybean_data/adata_rna.h5ad"),
-    REPO_ROOT / "Data" / "anndata_export" / "adata_rna.h5ad",
-)
-
-# The Windows copy is flattened: <condition>/<rep>/matrix.mtx.gz, filtered only.
-# The Mac copy is the full CellRanger tree: <long_condition_dir>/<run_dir>/outs/.
-COLLAB_LAYOUT = "flat" if (COLLAB_ROOT / "control" / "rep1" / "matrix.mtx.gz").exists() else "cellranger"
-
-ANALYSIS_ROOT = REPO_ROOT / "Claude_analysis"
-RESULTS_ROOT = ANALYSIS_ROOT / "results"                 # gitignored: ~3 GB of tables
-SUMMARY_ROOT = ANALYSIS_ROOT / "results_summary"         # committed: the small tables
+REPO_ROOT = Path(__file__).resolve().parents[2]
+ANALYSIS_ROOT = Path(__file__).resolve().parents[1]  # Claude_analysis/
+RESULTS_ROOT = ANALYSIS_ROOT / "results"  # gitignored: ~3 GB of tables
+SUMMARY_ROOT = ANALYSIS_ROOT / "results_summary"  # committed: the small tables
 CACHE_ROOT = RESULTS_ROOT / "cache"
 
 # Collaborator CellRanger runs are grouped into one parent directory per condition.
@@ -117,16 +99,34 @@ class Sample:
 
     @property
     def realigned_outs(self) -> Path:
-        return REALIGNED_ROOT / self.condition / self.run_id / "outs"
+        """First layout that actually holds this run's matrix.
+
+        Falls back to the canonical location so error messages name a sensible path
+        when the run has not arrived anywhere yet.
+        """
+        for root in REALIGNED_ROOTS:
+            outs = root / self.condition / self.run_id / "outs"
+            if (outs / "filtered_feature_bc_matrix" / "matrix.mtx.gz").exists():
+                return outs
+        return REALIGNED_ROOTS[0] / self.condition / self.run_id / "outs"
 
     @property
     def collab_outs(self) -> Path:
-        return COLLAB_ROOT / COLLAB_CONDITION_DIRS[self.condition] / self.collab_dir / "outs"
+        return (
+            COLLAB_ROOT
+            / COLLAB_CONDITION_DIRS[self.condition]
+            / self.collab_dir
+            / "outs"
+        )
 
     @property
     def collab_flat_dir(self) -> Path:
         """The one directory holding this library's collaborator matrix, flat layout."""
-        return COLLAB_ROOT / COLLAB_FLAT_CONDITION_DIRS[self.condition] / self.replicate.lower()
+        return (
+            COLLAB_ROOT
+            / COLLAB_FLAT_CONDITION_DIRS[self.condition]
+            / self.replicate.lower()
+        )
 
     @property
     def cellbender_h5(self) -> Path:
@@ -141,9 +141,15 @@ class Sample:
         returned raw path will simply not be there, which callers already test for.
         """
         if source == "collaborator" and COLLAB_LAYOUT == "flat":
-            return self.collab_flat_dir if filtered else self.collab_flat_dir / "raw_feature_bc_matrix"
+            return (
+                self.collab_flat_dir
+                if filtered
+                else self.collab_flat_dir / "raw_feature_bc_matrix"
+            )
         outs = self.realigned_outs if source == "realigned" else self.collab_outs
-        return outs / ("filtered_feature_bc_matrix" if filtered else "raw_feature_bc_matrix")
+        return outs / (
+            "filtered_feature_bc_matrix" if filtered else "raw_feature_bc_matrix"
+        )
 
     def has(self, source: str) -> bool:
         return (self.matrix_dir(source) / "matrix.mtx.gz").exists()
@@ -153,27 +159,69 @@ SAMPLES: list[Sample] = [
     # control ---------------------------------------------------------------
     Sample("Control_1", "control", "rep1", "RNA_leaf_C1_GEX", "leaf_control_rep1"),
     Sample("Control_1A", "control", "rep1A", "RNA_leaf_C1A_GEX", "leaf_control_rep1A"),
-    Sample("Control_2", "control", "rep2", "RNA_leaf_C2_merged_GEX", "leaf_control_rep2"),
-    Sample("Control_3", "control", "rep3", "RNA_leaf_control_3_GEX", "leaf_control_rep3"),
+    Sample(
+        "Control_2", "control", "rep2", "RNA_leaf_C2_merged_GEX", "leaf_control_rep2"
+    ),
+    Sample(
+        "Control_3", "control", "rep3", "RNA_leaf_control_3_GEX", "leaf_control_rep3"
+    ),
     # heat ------------------------------------------------------------------
     Sample("Heat_1", "heat", "rep1", "RNA_leaf_H1_GEX_andrewgenome", "leaf_Heat_rep1"),
-    Sample("Heat_2", "heat", "rep2", "RNA_leaf_H2_merged_GEX_andrewgenome", "leaf_Heat_rep2"),
-    Sample("Heat_3", "heat", "rep3", "RNA_leaf_heat_3_GEX_andrewgenome", "leaf_Heat_rep3"),
+    Sample(
+        "Heat_2",
+        "heat",
+        "rep2",
+        "RNA_leaf_H2_merged_GEX_andrewgenome",
+        "leaf_Heat_rep2",
+    ),
+    Sample(
+        "Heat_3", "heat", "rep3", "RNA_leaf_heat_3_GEX_andrewgenome", "leaf_Heat_rep3"
+    ),
     # drought ---------------------------------------------------------------
-    Sample("Drought_1", "drought", "rep1", "RNA_leaf_D1_GEX_andrewgenome", "leaf_drought_rep1"),
-    Sample("Drought_2", "drought", "rep2", "RNA_Leaf_D2_merged_GEX_andrewgenome", "leaf_drought_rep2"),
-    Sample("Drought_3", "drought", "rep3", "RNA_leaf_drought_3_GEX_andrewgenome", "leaf_drought_rep3"),
+    Sample(
+        "Drought_1",
+        "drought",
+        "rep1",
+        "RNA_leaf_D1_GEX_andrewgenome",
+        "leaf_drought_rep1",
+    ),
+    Sample(
+        "Drought_2",
+        "drought",
+        "rep2",
+        "RNA_Leaf_D2_merged_GEX_andrewgenome",
+        "leaf_drought_rep2",
+    ),
+    Sample(
+        "Drought_3",
+        "drought",
+        "rep3",
+        "RNA_leaf_drought_3_GEX_andrewgenome",
+        "leaf_drought_rep3",
+    ),
     # heat + drought --------------------------------------------------------
-    Sample("HD_1", "heat_drought", "rep1", "RNA_leaf_HD1_GEX_andrewgenome", "leaf_HD_rep1"),
-    Sample("HD_2", "heat_drought", "rep2", "RNA_Leaf_HD2_merged_GEX_andrewgenome", "leaf_HD_rep2"),
-    Sample("HD_3", "heat_drought", "rep3", "RNA_leaf_HD_3_GEX_andrewgenome", "leaf_HD_rep3"),
+    Sample(
+        "HD_1", "heat_drought", "rep1", "RNA_leaf_HD1_GEX_andrewgenome", "leaf_HD_rep1"
+    ),
+    Sample(
+        "HD_2",
+        "heat_drought",
+        "rep2",
+        "RNA_Leaf_HD2_merged_GEX_andrewgenome",
+        "leaf_HD_rep2",
+    ),
+    Sample(
+        "HD_3", "heat_drought", "rep3", "RNA_leaf_HD_3_GEX_andrewgenome", "leaf_HD_rep3"
+    ),
 ]
 
 SAMPLES_BY_RUN_ID = {s.run_id: s for s in SAMPLES}
 SAMPLES_BY_LIBRARY = {s.library: s for s in SAMPLES}
 
 
-def available_samples(source: str = "realigned", samples: list[Sample] | None = None) -> list[Sample]:
+def available_samples(
+    source: str = "realigned", samples: list[Sample] | None = None
+) -> list[Sample]:
     """Samples whose matrix for ``source`` is on disk right now.
 
     This is what makes the scripts rerunnable: today it returns the four control
@@ -197,6 +245,8 @@ def describe_availability(source: str = "realigned") -> str:
     lines = [f"{source}: {len(have)}/{len(SAMPLES)} libraries on disk"]
     for cond in COLLAB_CONDITION_DIRS:
         got = [s.run_id for s in have if s.condition == cond]
-        lines.append(f"  {cond:<13} {len(got)}/{sum(s.condition == cond for s in SAMPLES)}"
-                     + (f"  [{', '.join(got)}]" if got else "  (none yet)"))
+        lines.append(
+            f"  {cond:<13} {len(got)}/{sum(s.condition == cond for s in SAMPLES)}"
+            + (f"  [{', '.join(got)}]" if got else "  (none yet)")
+        )
     return "\n".join(lines)
