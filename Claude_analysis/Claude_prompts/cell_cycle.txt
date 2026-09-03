@@ -1,0 +1,7 @@
+ In this repository I am analzing single cell data from soybean. There is a list of cell cycle genes at
+  C:\Users\mikep\Data\Soybean\Soybean_reference_info\Soybean_cell_cycle_genes.csv . Could you make a new notebook in
+  this directory, and load in the soybean single cell data. Then, identify the top 25 most cluster specific cell cycle
+  genes and plot them on the UMAP as individual UMAP plots. I am interested in identifying if any clusters are highly
+  driven by cell cycle genes. Next, build a score for total cell cycle expression and plot this on the UMAP as well.
+  Finally, I'd like you to try correcting for cell cycle and reclustering the data, to see if it improves integration.
+  Please do this all in the same notebook.
